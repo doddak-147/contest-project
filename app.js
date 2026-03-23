@@ -1,6 +1,6 @@
 let contests = [];
 
-fetch("../data/contests.json")
+fetch("data/contests.json")
   .then(res => res.json())
   .then(data => {
     contests = data;
