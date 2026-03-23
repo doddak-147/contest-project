@@ -1,0 +1,16 @@
+[
+  {
+    "title": "AI 공모전",
+    "organization": "과학기술부",
+    "deadline": "2026-04-10",
+    "link": "https://example.com",
+    "category": "IT"
+  },
+  {
+    "title": "웹 개발 공모전",
+    "organization": "네이버",
+    "deadline": "2026-03-28",
+    "link": "https://example.com",
+    "category": "IT"
+  }
+]
