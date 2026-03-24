@@ -1,16 +1,72 @@
 [
   {
-    "title": "AI 공모전",
-    "organization": "과학기술부",
-    "deadline": "2026-04-10",
-    "link": "https://example.com",
-    "category": "IT"
+    "title": "대교 눈높이 캐릭터 공모전",
+    "organization": "(주)대교",
+    "deadline": "2026-04-19",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103191",
+    "category": "ETC"
   },
   {
-    "title": "웹 개발 공모전",
-    "organization": "네이버",
-    "deadline": "2026-03-28",
-    "link": "https://example.com",
-    "category": "IT"
+    "title": "안동국제탈춤페스티벌 2026 포스터 공모전",
+    "organization": "(재)한국정신문화재단",
+    "deadline": "2026-04-06",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103127",
+    "category": "ETC"
+  },
+  {
+    "title": "제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
+    "category": "ETC"
+  },
+  {
+    "title": "제9회 전국동시지방선거 숏폼영상공모",
+    "organization": "중앙선거관리위원회",
+    "deadline": "2026-04-17",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103023",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 대한민국 헌혈 공모전",
+    "organization": "대한적십자사 혈액관리본부",
+    "deadline": "2026-04-24",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102641",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 제3회 만인의사 추모 공모전",
+    "organization": "국가유산청 만인의총관리소",
+    "deadline": "2026-05-29",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
+    "category": "ETC"
+  },
+  {
+    "title": "[이벤트] 로니파이브와 함께하는 '체크(V) 미션 위크' 4종 이벤트!",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-04-15",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102550",
+    "category": "ETC"
+  },
+  {
+    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
+    "category": "ETC"
+  },
+  {
+    "title": "제8회 청소년 체커톤",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-04-15",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102408",
+    "category": "ETC"
+  },
+  {
+    "title": "2026년 바다꾸러기 키움사업 공모",
+    "organization": "(재)한국해양재단",
+    "deadline": "2026-03-26",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102258",
+    "category": "ETC"
   }
 ]
