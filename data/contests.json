@@ -1,26 +1,5 @@
 [
   {
-    "title": "제9회 전국동시지방선거 숏폼영상공모",
-    "organization": "중앙선거관리위원회",
-    "deadline": "2026-04-17",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103023",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 제3회 만인의사 추모 공모전",
-    "organization": "국가유산청 만인의총관리소",
-    "deadline": "2026-05-29",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
-    "category": "ETC"
-  },
-  {
-    "title": "제8회 청소년 체커톤",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-04-15",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102408",
-    "category": "ETC"
-  },
-  {
     "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
     "organization": "한국언론진흥재단",
     "deadline": "2026-07-31",
@@ -28,10 +7,17 @@
     "category": "ETC"
   },
   {
-    "title": "제9회 전국동시지방선거 유권자 희망공약 제안",
-    "organization": "중앙선거관리위원회",
-    "deadline": "2026-05-15",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103435",
+    "title": "[과학기술정보통신부] 2026 글로벌 피우다프로젝트(SW개발 경진대회)",
+    "organization": "과학기술정보통신부",
+    "deadline": "2026-05-17",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103660",
+    "category": "IT"
+  },
+  {
+    "title": "옛 전남도청 개관 기념 포스터 디자인 공모전",
+    "organization": "문화체육관광부 옛전남도청복원추진단",
+    "deadline": "2026-04-15",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103386",
     "category": "ETC"
   },
   {
@@ -42,17 +28,24 @@
     "category": "ETC"
   },
   {
-    "title": "제 8회 곰랩 영상 공모전 곰믹스 x 유쾌한생각",
-    "organization": "곰앤컴퍼니",
-    "deadline": "2026-04-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103033",
+    "title": "제9회 전국동시지방선거 유권자 희망공약 제안",
+    "organization": "중앙선거관리위원회",
+    "deadline": "2026-05-15",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103435",
     "category": "ETC"
   },
   {
-    "title": "옛 전남도청 개관 기념 포스터 디자인 공모전",
-    "organization": "문화체육관광부 옛전남도청복원추진단",
+    "title": "제8회 청소년 체커톤",
+    "organization": "한국언론진흥재단",
     "deadline": "2026-04-15",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103386",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102408",
+    "category": "ETC"
+  },
+  {
+    "title": "제9회 전국동시지방선거 숏폼영상공모",
+    "organization": "중앙선거관리위원회",
+    "deadline": "2026-04-17",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103023",
     "category": "ETC"
   },
   {
@@ -63,11 +56,11 @@
     "category": "ETC"
   },
   {
-    "title": "[과학기술정보통신부] 2026 글로벌 피우다프로젝트(SW개발 경진대회)",
-    "organization": "과학기술정보통신부",
-    "deadline": "2026-05-17",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103660",
-    "category": "IT"
+    "title": "2026 제3회 만인의사 추모 공모전",
+    "organization": "국가유산청 만인의총관리소",
+    "deadline": "2026-05-29",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
+    "category": "ETC"
   },
   {
     "title": "2026 대한민국 헌혈 공모전",
@@ -88,6 +81,13 @@
     "organization": "(주)대교",
     "deadline": "2026-04-19",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103191",
+    "category": "ETC"
+  },
+  {
+    "title": "제 8회 곰랩 영상 공모전 곰믹스 x 유쾌한생각",
+    "organization": "곰앤컴퍼니",
+    "deadline": "2026-04-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103033",
     "category": "ETC"
   }
 ]
