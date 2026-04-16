@@ -1,9 +1,9 @@
 [
   {
-    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
+    "title": "제9회 전국동시지방선거 숏폼영상공모",
+    "organization": "중앙선거관리위원회",
+    "deadline": "2026-04-17",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103023",
     "category": "ETC"
   },
   {
@@ -14,10 +14,10 @@
     "category": "IT"
   },
   {
-    "title": "제9회 전국동시지방선거 숏폼영상공모",
-    "organization": "중앙선거관리위원회",
-    "deadline": "2026-04-17",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103023",
+    "title": "2026 제3회 만인의사 추모 공모전",
+    "organization": "국가유산청 만인의총관리소",
+    "deadline": "2026-05-29",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
     "category": "ETC"
   },
   {
@@ -25,6 +25,27 @@
     "organization": "(주)대교",
     "deadline": "2026-04-19",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103191",
+    "category": "ETC"
+  },
+  {
+    "title": "제7회 MDF 패션디자인 공모전",
+    "organization": "MD재단",
+    "deadline": "2026-05-07",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103638",
+    "category": "ETC"
+  },
+  {
+    "title": "제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
+    "category": "ETC"
+  },
+  {
+    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
     "category": "ETC"
   },
   {
@@ -42,52 +63,17 @@
     "category": "ETC"
   },
   {
-    "title": "제7회 시험·연구용 유전자변형생물체 안전 콘텐츠 대국민 공모전",
-    "organization": "과학기술정보통신부",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104157",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 제3회 만인의사 추모 공모전",
-    "organization": "국가유산청 만인의총관리소",
-    "deadline": "2026-05-29",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
-    "category": "ETC"
-  },
-  {
-    "title": "제8회 청소년 체커톤",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-04-15",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102408",
-    "category": "ETC"
-  },
-  {
-    "title": "제7회 뉴스읽기 뉴스일기 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
-    "category": "ETC"
-  },
-  {
-    "title": "제7회 MDF 패션디자인 공모전",
-    "organization": "MD재단",
-    "deadline": "2026-05-07",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103638",
-    "category": "ETC"
-  },
-  {
-    "title": "옛 전남도청 개관 기념 포스터 디자인 공모전",
-    "organization": "문화체육관광부 옛전남도청복원추진단",
-    "deadline": "2026-04-15",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103386",
-    "category": "ETC"
-  },
-  {
     "title": "제18회 전국 초·중·고 iM환경일기 대회",
     "organization": "iM금융그룹",
     "deadline": "2026-08-31",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
+    "category": "ETC"
+  },
+  {
+    "title": "제7회 시험·연구용 유전자변형생물체 안전 콘텐츠 대국민 공모전",
+    "organization": "과학기술정보통신부",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104157",
     "category": "ETC"
   }
 ]
