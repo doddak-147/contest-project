@@ -1,23 +1,16 @@
 [
   {
+    "title": "제18회 전국 초·중·고 iM환경일기 대회",
+    "organization": "iM금융그룹",
+    "deadline": "2026-08-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
+    "category": "ETC"
+  },
+  {
     "title": "제9회 전국동시지방선거 유권자 희망공약 제안",
     "organization": "중앙선거관리위원회",
     "deadline": "2026-05-15",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103435",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 제3회 만인의사 추모 공모전",
-    "organization": "국가유산청 만인의총관리소",
-    "deadline": "2026-05-29",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
-    "category": "ETC"
-  },
-  {
-    "title": "제7회 시험·연구용 유전자변형생물체 안전 콘텐츠 대국민 공모전",
-    "organization": "과학기술정보통신부",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104157",
     "category": "ETC"
   },
   {
@@ -28,38 +21,10 @@
     "category": "IT"
   },
   {
-    "title": "제18회 전국 초·중·고 iM환경일기 대회",
-    "organization": "iM금융그룹",
-    "deadline": "2026-08-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 가정의달 기념 국민참여 이벤트 : 함께해서 행복한 우리가족 숏폼 영상 및 사진올리기",
-    "organization": "성평등가족부, 한국건강가정진흥원",
-    "deadline": "2026-04-22",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104293",
-    "category": "ETC"
-  },
-  {
-    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
+    "title": "제7회 뉴스읽기 뉴스일기 공모전",
     "organization": "한국언론진흥재단",
     "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 대한민국 헌혈 공모전",
-    "organization": "대한적십자사 혈액관리본부",
-    "deadline": "2026-04-24",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102641",
-    "category": "ETC"
-  },
-  {
-    "title": "제7회 MDF 패션디자인 공모전",
-    "organization": "MD재단",
-    "deadline": "2026-05-07",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103638",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
     "category": "ETC"
   },
   {
@@ -70,17 +35,45 @@
     "category": "ETC"
   },
   {
-    "title": "제7회 뉴스읽기 뉴스일기 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
+    "title": "2026 가정의달 기념 국민참여 이벤트 : 함께해서 행복한 우리가족 숏폼 영상 및 사진올리기",
+    "organization": "성평등가족부, 한국건강가정진흥원",
+    "deadline": "2026-04-22",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104293",
     "category": "ETC"
   },
   {
-    "title": "제9회 전국동시지방선거 숏폼영상공모",
-    "organization": "중앙선거관리위원회",
-    "deadline": "2026-04-17",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103023",
+    "title": "2026 제3회 만인의사 추모 공모전",
+    "organization": "국가유산청 만인의총관리소",
+    "deadline": "2026-05-29",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
+    "category": "ETC"
+  },
+  {
+    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
+    "category": "ETC"
+  },
+  {
+    "title": "제7회 MDF 패션디자인 공모전",
+    "organization": "MD재단",
+    "deadline": "2026-05-07",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103638",
+    "category": "ETC"
+  },
+  {
+    "title": "제7회 시험·연구용 유전자변형생물체 안전 콘텐츠 대국민 공모전",
+    "organization": "과학기술정보통신부",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104157",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 대한민국 헌혈 공모전",
+    "organization": "대한적십자사 혈액관리본부",
+    "deadline": "2026-04-24",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102641",
     "category": "ETC"
   }
 ]
