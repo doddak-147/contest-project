@@ -1,66 +1,10 @@
 [
   {
-    "title": "「대국민심사 이벤트」 제9회 전국동시지방선거 숏폼영상공모전",
-    "organization": "None",
-    "deadline": "2026-05-03",
-    "link": "https://www.thinkcontest.comhttps://www.xn--v69axjv46am2fsnay5vdwd.com/nsimsa/agree.php?utm_source=thinkgood&utm_medium=platform&utm_campaign=link_click",
-    "category": "ETC"
-  },
-  {
-    "title": "제7회 뉴스읽기 뉴스일기 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
-    "category": "ETC"
-  },
-  {
-    "title": "제35회 눈높이교육상",
-    "organization": "대교문화재단",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104393",
-    "category": "ETC"
-  },
-  {
     "title": "제7회 시험·연구용 유전자변형생물체 안전 콘텐츠 대국민 공모전",
     "organization": "과학기술정보통신부",
     "deadline": "2026-06-30",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104157",
     "category": "ETC"
-  },
-  {
-    "title": "제9회 전국동시지방선거 유권자 희망공약 제안",
-    "organization": "중앙선거관리위원회",
-    "deadline": "2026-05-15",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103435",
-    "category": "ETC"
-  },
-  {
-    "title": "제7회 MDF 패션디자인 공모전",
-    "organization": "MD재단",
-    "deadline": "2026-05-07",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103638",
-    "category": "ETC"
-  },
-  {
-    "title": "제18회 전국 초·중·고 iM환경일기 대회",
-    "organization": "iM금융그룹",
-    "deadline": "2026-08-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
-    "category": "ETC"
-  },
-  {
-    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
-    "category": "ETC"
-  },
-  {
-    "title": "[과학기술정보통신부] 2026 글로벌 피우다프로젝트(SW개발 경진대회)",
-    "organization": "과학기술정보통신부",
-    "deadline": "2026-05-17",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103660",
-    "category": "IT"
   },
   {
     "title": "선생님, 감사합니다 - 해피해라 클래스 이벤트",
@@ -70,10 +14,10 @@
     "category": "ETC"
   },
   {
-    "title": "2026 대학언론 우수보도 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104451",
+    "title": "제3회 안동문화상 작품공모전 (문학/미술)",
+    "organization": "한국정신문화재단",
+    "deadline": "2026-08-21",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104572",
     "category": "ETC"
   },
   {
@@ -84,10 +28,66 @@
     "category": "ETC"
   },
   {
-    "title": "제3회 안동문화상 작품공모전 (문학/미술)",
-    "organization": "한국정신문화재단",
-    "deadline": "2026-08-21",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104572",
+    "title": "제18회 전국 초·중·고 iM환경일기 대회",
+    "organization": "iM금융그룹",
+    "deadline": "2026-08-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
+    "category": "ETC"
+  },
+  {
+    "title": "제7회 MDF 패션디자인 공모전",
+    "organization": "MD재단",
+    "deadline": "2026-05-07",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103638",
+    "category": "ETC"
+  },
+  {
+    "title": "제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
+    "category": "ETC"
+  },
+  {
+    "title": "[과학기술정보통신부] 2026 글로벌 피우다프로젝트(SW개발 경진대회)",
+    "organization": "과학기술정보통신부",
+    "deadline": "2026-05-17",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103660",
+    "category": "IT"
+  },
+  {
+    "title": "제35회 눈높이교육상",
+    "organization": "대교문화재단",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104393",
+    "category": "ETC"
+  },
+  {
+    "title": "「대국민심사 이벤트」 제9회 전국동시지방선거 숏폼영상공모전",
+    "organization": "None",
+    "deadline": "2026-05-03",
+    "link": "https://www.thinkcontest.comhttps://www.xn--v69axjv46am2fsnay5vdwd.com/nsimsa/agree.php?utm_source=thinkgood&utm_medium=platform&utm_campaign=link_click",
+    "category": "ETC"
+  },
+  {
+    "title": "제9회 전국동시지방선거 유권자 희망공약 제안",
+    "organization": "중앙선거관리위원회",
+    "deadline": "2026-05-15",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103435",
+    "category": "ETC"
+  },
+  {
+    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 대학언론 우수보도 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104451",
     "category": "ETC"
   }
 ]
