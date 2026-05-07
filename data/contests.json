@@ -1,23 +1,9 @@
 [
   {
-    "title": "2026 대학언론 우수보도 공모전",
+    "title": "제7회 뉴스읽기 뉴스일기 공모전",
     "organization": "한국언론진흥재단",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104451",
-    "category": "ETC"
-  },
-  {
-    "title": "제18회 전국 초·중·고 iM환경일기 대회",
-    "organization": "iM금융그룹",
-    "deadline": "2026-08-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 제3회 만인의사 추모 공모전",
-    "organization": "국가유산청 만인의총관리소",
-    "deadline": "2026-05-29",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
     "category": "ETC"
   },
   {
@@ -28,24 +14,10 @@
     "category": "ETC"
   },
   {
-    "title": "2026 청렴특별도 경북청렴 시(詩) 공모전",
-    "organization": "경상북도",
-    "deadline": "2026-05-20",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104760",
-    "category": "ETC"
-  },
-  {
-    "title": "선생님, 감사합니다 - 해피해라 클래스 이벤트",
+    "title": "제35회 눈높이교육상",
     "organization": "대교문화재단",
-    "deadline": "2026-05-08",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104516",
-    "category": "ETC"
-  },
-  {
-    "title": "제7회 MDF 패션디자인 공모전",
-    "organization": "MD재단",
-    "deadline": "2026-05-07",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103638",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104393",
     "category": "ETC"
   },
   {
@@ -56,10 +28,17 @@
     "category": "ETC"
   },
   {
-    "title": "제7회 뉴스읽기 뉴스일기 공모전",
+    "title": "선생님, 감사합니다 - 해피해라 클래스 이벤트",
+    "organization": "대교문화재단",
+    "deadline": "2026-05-08",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104516",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 대학언론 우수보도 공모전",
     "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104451",
     "category": "ETC"
   },
   {
@@ -77,17 +56,31 @@
     "category": "ETC"
   },
   {
+    "title": "2026 청렴특별도 경북청렴 시(詩) 공모전",
+    "organization": "경상북도",
+    "deadline": "2026-05-20",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104760",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 제3회 만인의사 추모 공모전",
+    "organization": "국가유산청 만인의총관리소",
+    "deadline": "2026-05-29",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
+    "category": "ETC"
+  },
+  {
+    "title": "제18회 전국 초·중·고 iM환경일기 대회",
+    "organization": "iM금융그룹",
+    "deadline": "2026-08-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
+    "category": "ETC"
+  },
+  {
     "title": "제9회 전국동시지방선거 유권자 희망공약 제안",
     "organization": "중앙선거관리위원회",
     "deadline": "2026-05-15",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103435",
-    "category": "ETC"
-  },
-  {
-    "title": "제35회 눈높이교육상",
-    "organization": "대교문화재단",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104393",
     "category": "ETC"
   }
 ]
