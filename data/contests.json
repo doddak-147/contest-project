@@ -7,59 +7,10 @@
     "category": "ETC"
   },
   {
-    "title": "2026 대한민국 편지쓰기 공모전",
-    "organization": "우정사업본부, 우정인재개발원",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104296",
-    "category": "ETC"
-  },
-  {
     "title": "제7회 시험·연구용 유전자변형생물체 안전 콘텐츠 대국민 공모전",
     "organization": "과학기술정보통신부",
     "deadline": "2026-06-30",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104157",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 청렴특별도 경북청렴 시(詩) 공모전",
-    "organization": "경상북도",
-    "deadline": "2026-05-20",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104760",
-    "category": "ETC"
-  },
-  {
-    "title": "제7회 뉴스읽기 뉴스일기 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 대학언론 우수보도 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104451",
-    "category": "ETC"
-  },
-  {
-    "title": "제18회 전국 초·중·고 iM환경일기 대회",
-    "organization": "iM금융그룹",
-    "deadline": "2026-08-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
-    "category": "ETC"
-  },
-  {
-    "title": "제3회 안동문화상 작품공모전 (문학/미술)",
-    "organization": "한국정신문화재단",
-    "deadline": "2026-08-21",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104572",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 제3회 만인의사 추모 공모전",
-    "organization": "국가유산청 만인의총관리소",
-    "deadline": "2026-05-29",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
     "category": "ETC"
   },
   {
@@ -70,10 +21,10 @@
     "category": "ETC"
   },
   {
-    "title": "2026 일본군'위안부' 피해자 관련 청소년 작품공모전",
-    "organization": "성평등가족",
+    "title": "2026 대한민국 편지쓰기 공모전",
+    "organization": "우정사업본부, 우정인재개발원",
     "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105392",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104296",
     "category": "ETC"
   },
   {
@@ -81,6 +32,55 @@
     "organization": "신용카드사회공헌재단",
     "deadline": "2026-06-12",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104849",
+    "category": "ETC"
+  },
+  {
+    "title": "제18회 전국 초·중·고 iM환경일기 대회",
+    "organization": "iM금융그룹",
+    "deadline": "2026-08-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 제3회 만인의사 추모 공모전",
+    "organization": "국가유산청 만인의총관리소",
+    "deadline": "2026-05-29",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 일본군'위안부' 피해자 관련 청소년 작품공모전",
+    "organization": "성평등가족",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105392",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 청렴특별도 경북청렴 시(詩) 공모전",
+    "organization": "경상북도",
+    "deadline": "2026-05-20",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104760",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 대학언론 우수보도 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104451",
+    "category": "ETC"
+  },
+  {
+    "title": "제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
+    "category": "ETC"
+  },
+  {
+    "title": "제3회 안동문화상 작품공모전 (문학/미술)",
+    "organization": "한국정신문화재단",
+    "deadline": "2026-08-21",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104572",
     "category": "ETC"
   }
 ]
