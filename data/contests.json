@@ -1,9 +1,9 @@
 [
   {
-    "title": "2026 신용카드사회공헌재단 공익사업 공모전",
-    "organization": "신용카드사회공헌재단",
-    "deadline": "2026-06-12",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104849",
+    "title": "제3회 안동문화상 작품공모전 (문학/미술)",
+    "organization": "한국정신문화재단",
+    "deadline": "2026-08-21",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104572",
     "category": "ETC"
   },
   {
@@ -21,27 +21,6 @@
     "category": "ETC"
   },
   {
-    "title": "2026 대학언론 우수보도 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104451",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 청렴특별도 경북청렴 시(詩) 공모전",
-    "organization": "경상북도",
-    "deadline": "2026-05-20",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104760",
-    "category": "ETC"
-  },
-  {
-    "title": "제35회 눈높이교육상",
-    "organization": "대교문화재단",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104393",
-    "category": "ETC"
-  },
-  {
     "title": "선생님이라서 행복해요 - 해피해라 클래스 이벤트",
     "organization": "대교문화재단",
     "deadline": "2026-06-12",
@@ -49,17 +28,17 @@
     "category": "ETC"
   },
   {
-    "title": "제7회 뉴스읽기 뉴스일기 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
+    "title": "2026 신용카드사회공헌재단 공익사업 공모전",
+    "organization": "신용카드사회공헌재단",
+    "deadline": "2026-06-12",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104849",
     "category": "ETC"
   },
   {
-    "title": "2026 일본군'위안부' 피해자 관련 청소년 작품공모전",
-    "organization": "성평등가족",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105392",
+    "title": "2026 제3회 만인의사 추모 공모전",
+    "organization": "국가유산청 만인의총관리소",
+    "deadline": "2026-05-29",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
     "category": "ETC"
   },
   {
@@ -77,17 +56,31 @@
     "category": "ETC"
   },
   {
-    "title": "2026 제3회 만인의사 추모 공모전",
-    "organization": "국가유산청 만인의총관리소",
-    "deadline": "2026-05-29",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102939",
+    "title": "2026 일본군'위안부' 피해자 관련 청소년 작품공모전",
+    "organization": "성평등가족부",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105392",
     "category": "ETC"
   },
   {
-    "title": "제3회 안동문화상 작품공모전 (문학/미술)",
-    "organization": "한국정신문화재단",
-    "deadline": "2026-08-21",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104572",
+    "title": "제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
+    "category": "ETC"
+  },
+  {
+    "title": "제35회 눈높이교육상",
+    "organization": "대교문화재단",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104393",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 대학언론 우수보도 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104451",
     "category": "ETC"
   }
 ]
