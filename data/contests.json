@@ -1,16 +1,37 @@
 [
   {
-    "title": "제34회 눈높이아동문학대전",
-    "organization": "(재)대교문화재단, (재)세계청소년문화재단",
-    "deadline": "2026-08-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105776",
+    "title": "2026 인권공모전",
+    "organization": "국가인권위원회",
+    "deadline": "2026-07-14",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105888",
     "category": "ETC"
   },
   {
-    "title": "2026 대학언론 우수보도 공모전",
-    "organization": "한국언론진흥재단",
+    "title": "AI 활용 국유재산 홍보 콘텐츠 공모전",
+    "organization": "한국자산관리공사",
+    "deadline": "2026-06-19",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105588",
+    "category": "IT"
+  },
+  {
+    "title": "2026 일본군'위안부' 피해자 관련 청소년 작품공모전",
+    "organization": "성평등가족부",
     "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104451",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105392",
+    "category": "ETC"
+  },
+  {
+    "title": "제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
+    "category": "ETC"
+  },
+  {
+    "title": "제17회 「건설노동자의 땀과 보람, 그 행복한 동행」 사진·영상 공모전",
+    "organization": "건설근로자공제회",
+    "deadline": "2026-07-24",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106252",
     "category": "ETC"
   },
   {
@@ -18,6 +39,34 @@
     "organization": "iM금융그룹",
     "deadline": "2026-08-31",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
+    "category": "ETC"
+  },
+  {
+    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
+    "category": "ETC"
+  },
+  {
+    "title": "제34회 눈높이아동문학대전",
+    "organization": "(재)대교문화재단, (재)세계청소년문화재단",
+    "deadline": "2026-08-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105776",
+    "category": "ETC"
+  },
+  {
+    "title": "제35회 눈높이교육상",
+    "organization": "대교문화재단",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104393",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 대한민국 편지쓰기 공모전",
+    "organization": "우정사업본부, 우정인재개발원",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104296",
     "category": "ETC"
   },
   {
@@ -35,13 +84,6 @@
     "category": "ETC"
   },
   {
-    "title": "2026 대한민국 편지쓰기 공모전",
-    "organization": "우정사업본부, 우정인재개발원",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104296",
-    "category": "ETC"
-  },
-  {
     "title": "2026 신용카드사회공헌재단 공익사업 공모전",
     "organization": "신용카드사회공헌재단",
     "deadline": "2026-06-12",
@@ -49,31 +91,10 @@
     "category": "ETC"
   },
   {
-    "title": "제35회 눈높이교육상",
-    "organization": "대교문화재단",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104393",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 일본군'위안부' 피해자 관련 청소년 작품공모전",
-    "organization": "성평등가족부",
-    "deadline": "2026-06-30",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105392",
-    "category": "ETC"
-  },
-  {
-    "title": "제7회 뉴스읽기 뉴스일기 공모전",
+    "title": "2026 대학언론 우수보도 공모전",
     "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 인권공모전",
-    "organization": "국가인권위원회",
-    "deadline": "2026-07-14",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105888",
+    "deadline": "2026-06-30",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104451",
     "category": "ETC"
   },
   {
@@ -81,20 +102,6 @@
     "organization": "대교문화재단",
     "deadline": "2026-06-12",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105653",
-    "category": "ETC"
-  },
-  {
-    "title": "AI 활용 국유재산 홍보 콘텐츠 공모전",
-    "organization": "한국자산관리공사",
-    "deadline": "2026-06-19",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105588",
-    "category": "IT"
-  },
-  {
-    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
     "category": "ETC"
   },
   {
