@@ -1,65 +1,9 @@
 [
   {
-    "title": "2026 원도심 올랑가 페스타 – 끼 콘테스트 참가자 모집",
-    "organization": "(재)순천시상권활성화재단",
-    "deadline": "2026-07-08",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107189",
-    "category": "ETC"
-  },
-  {
-    "title": "제19회 동물사랑 사진·영상 공모전",
-    "organization": "농림축산식품부",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107048",
-    "category": "ETC"
-  },
-  {
-    "title": "제17회 「건설노동자의 땀과 보람, 그 행복한 동행」 사진·영상 공모전",
-    "organization": "건설근로자공제회",
-    "deadline": "2026-07-24",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106252",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 ACC 민주·인권·평화 영상(+AI) 콘텐츠 공모전",
-    "organization": "국립아시아문화전당",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105501",
-    "category": "IT"
-  },
-  {
-    "title": "2026 디스플레이 챌린지(Display Challenge)",
-    "organization": "산업통상부",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106981",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 오픈소스 개발자대회",
-    "organization": "과학기술정보통신부",
-    "deadline": "2026-07-17",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106747",
-    "category": "IT"
-  },
-  {
     "title": "제7회 대한외래 영상작품 공모전",
     "organization": "서울대학교병원",
     "deadline": "2026-08-31",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107482",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 국민참여 청렴콘텐츠 공모전",
-    "organization": "국가청렴권익교육원",
-    "deadline": "2026-08-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106904",
-    "category": "ETC"
-  },
-  {
-    "title": "제7회 뉴스읽기 뉴스일기 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
     "category": "ETC"
   },
   {
@@ -70,20 +14,6 @@
     "category": "ETC"
   },
   {
-    "title": "2026 천원의 아침밥 아주 라이스 우수 레시피 영상공모전",
-    "organization": "농림축산식품부",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106751",
-    "category": "ETC"
-  },
-  {
-    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
-    "category": "ETC"
-  },
-  {
     "title": "제7회 좋은데이미술대전",
     "organization": "좋은데이나눔재단",
     "deadline": "2026-09-04",
@@ -91,10 +21,10 @@
     "category": "ETC"
   },
   {
-    "title": "2026 인권공모전",
-    "organization": "국가인권위원회",
-    "deadline": "2026-07-14",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105888",
+    "title": "2026 국민참여 청렴콘텐츠 공모전",
+    "organization": "국가청렴권익교육원",
+    "deadline": "2026-08-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106904",
     "category": "ETC"
   },
   {
@@ -105,24 +35,31 @@
     "category": "ETC"
   },
   {
+    "title": "제19회 동물사랑 사진·영상 공모전",
+    "organization": "농림축산식품부",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107048",
+    "category": "ETC"
+  },
+  {
+    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 천원의 아침밥 아주 라이스 우수 레시피 영상공모전",
+    "organization": "농림축산식품부",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106751",
+    "category": "ETC"
+  },
+  {
     "title": "2026 청소년 무예 만화 공모전",
     "organization": "유네스코 국제무예센터",
     "deadline": "2026-08-18",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106734",
-    "category": "ETC"
-  },
-  {
-    "title": "원자력안전정보공유포털 AI 캐릭터 공모전",
-    "organization": "원자력안전정보공유포털",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107117",
-    "category": "IT"
-  },
-  {
-    "title": "제34회 눈높이아동문학대전",
-    "organization": "(재)대교문화재단, (재)세계청소년문화재단",
-    "deadline": "2026-08-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105776",
     "category": "ETC"
   },
   {
@@ -133,10 +70,73 @@
     "category": "ETC"
   },
   {
+    "title": "2026 인권공모전",
+    "organization": "국가인권위원회",
+    "deadline": "2026-07-14",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105888",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 디스플레이 챌린지(Display Challenge)",
+    "organization": "산업통상부",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106981",
+    "category": "ETC"
+  },
+  {
+    "title": "원자력안전정보공유포털 AI 캐릭터 공모전",
+    "organization": "원자력안전정보공유포털",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107117",
+    "category": "IT"
+  },
+  {
     "title": "2026 ‘고립·은둔 청년’ 리네이밍 공모전「고은 이름을 찾습니다」",
     "organization": "경기도미래세대재단",
     "deadline": "2026-07-24",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107649",
     "category": "ETC"
+  },
+  {
+    "title": "제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 오픈소스 개발자대회",
+    "organization": "과학기술정보통신부",
+    "deadline": "2026-07-17",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106747",
+    "category": "IT"
+  },
+  {
+    "title": "제17회 「건설노동자의 땀과 보람, 그 행복한 동행」 사진·영상 공모전",
+    "organization": "건설근로자공제회",
+    "deadline": "2026-07-24",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106252",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 원도심 올랑가 페스타 – 끼 콘테스트 참가자 모집",
+    "organization": "(재)순천시상권활성화재단",
+    "deadline": "2026-07-08",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107189",
+    "category": "ETC"
+  },
+  {
+    "title": "제34회 눈높이아동문학대전",
+    "organization": "(재)대교문화재단, (재)세계청소년문화재단",
+    "deadline": "2026-08-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105776",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 ACC 민주·인권·평화 영상(+AI) 콘텐츠 공모전",
+    "organization": "국립아시아문화전당",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105501",
+    "category": "IT"
   }
 ]
