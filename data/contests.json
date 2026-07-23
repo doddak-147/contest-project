@@ -1,23 +1,9 @@
 [
   {
-    "title": "제7회 뉴스읽기 뉴스일기 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
-    "category": "ETC"
-  },
-  {
-    "title": "제18회 전국 초·중·고 iM환경일기 대회",
-    "organization": "iM금융그룹",
-    "deadline": "2026-08-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
-    "category": "ETC"
-  },
-  {
-    "title": "2026 국민참여 청렴콘텐츠 공모전",
-    "organization": "국가청렴권익교육원",
-    "deadline": "2026-08-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106904",
+    "title": "제7회 좋은데이미술대전",
+    "organization": "좋은데이나눔재단",
+    "deadline": "2026-09-04",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106352",
     "category": "ETC"
   },
   {
@@ -25,6 +11,20 @@
     "organization": "농림축산식품부",
     "deadline": "2026-07-31",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107048",
+    "category": "ETC"
+  },
+  {
+    "title": "Alive 어촌 영상 공모전",
+    "organization": "해양수산부",
+    "deadline": "2026-08-28",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107388",
+    "category": "ETC"
+  },
+  {
+    "title": "제17회 「건설노동자의 땀과 보람, 그 행복한 동행」 사진·영상 공모전",
+    "organization": "건설근로자공제회",
+    "deadline": "2026-07-24",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106252",
     "category": "ETC"
   },
   {
@@ -42,17 +42,24 @@
     "category": "ETC"
   },
   {
-    "title": "제17회 「건설노동자의 땀과 보람, 그 행복한 동행」 사진·영상 공모전",
-    "organization": "건설근로자공제회",
-    "deadline": "2026-07-24",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106252",
+    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
     "category": "ETC"
   },
   {
-    "title": "Alive 어촌 영상 공모전",
-    "organization": "해양수산부",
-    "deadline": "2026-08-28",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107388",
+    "title": "제18회 전국 초·중·고 iM환경일기 대회",
+    "organization": "iM금융그룹",
+    "deadline": "2026-08-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104123",
+    "category": "ETC"
+  },
+  {
+    "title": "제7회 뉴스읽기 뉴스일기 공모전",
+    "organization": "한국언론진흥재단",
+    "deadline": "2026-07-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102725",
     "category": "ETC"
   },
   {
@@ -63,13 +70,6 @@
     "category": "ETC"
   },
   {
-    "title": "제7회 대한외래 영상작품 공모전",
-    "organization": "서울대학교병원",
-    "deadline": "2026-08-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107482",
-    "category": "ETC"
-  },
-  {
     "title": "제2회 국립종자원 종자 사진 공모전 「종자의 가치, 미래를 Plus「+」하다」",
     "organization": "농림축산식품부 국립종자원",
     "deadline": "2026-09-13",
@@ -77,10 +77,10 @@
     "category": "ETC"
   },
   {
-    "title": "뉴스일기 완주 챌린지 - 제7회 뉴스읽기 뉴스일기 공모전",
-    "organization": "한국언론진흥재단",
-    "deadline": "2026-07-31",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102966",
+    "title": "2026 국민참여 청렴콘텐츠 공모전",
+    "organization": "국가청렴권익교육원",
+    "deadline": "2026-08-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106904",
     "category": "ETC"
   },
   {
@@ -91,17 +91,17 @@
     "category": "ETC"
   },
   {
-    "title": "2026 일본군‘위안부’ 피해자 관련 청소년 작품 공모전 [대국민 심사 EVENT]",
-    "organization": "성평등가족부",
-    "deadline": "2026-07-22",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=108362",
-    "category": "ETC"
-  },
-  {
     "title": "제2회 법무부 교정본부 홍보 콘텐츠 공모전",
     "organization": "법무부 교정본부",
     "deadline": "2026-08-17",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107671",
+    "category": "ETC"
+  },
+  {
+    "title": "2026 청소년 무예 만화 공모전",
+    "organization": "유네스코 국제무예센터",
+    "deadline": "2026-08-18",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106734",
     "category": "ETC"
   },
   {
@@ -112,17 +112,10 @@
     "category": "IT"
   },
   {
-    "title": "2026 청소년 무예 만화 공모전",
-    "organization": "유네스코 국제무예센터",
-    "deadline": "2026-08-18",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106734",
-    "category": "ETC"
-  },
-  {
-    "title": "제7회 좋은데이미술대전",
-    "organization": "좋은데이나눔재단",
-    "deadline": "2026-09-04",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106352",
+    "title": "제7회 대한외래 영상작품 공모전",
+    "organization": "서울대학교병원",
+    "deadline": "2026-08-31",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107482",
     "category": "ETC"
   }
 ]
