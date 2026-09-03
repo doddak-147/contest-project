@@ -2,20 +2,118 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>공모전 모음</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="관심 있는 공모전을 빠르게 발견하고 마감일을 확인하세요.">
+  <title>Contestly — 공모전 탐색</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%23635bff%22/><path d=%22M8 21 16 9l8 12%22 fill=%22none%22 stroke=%22white%22 stroke-width=%225%22 stroke-linecap=%22round%22/></svg>">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Contestly 홈">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span>Contestly</span>
+      </a>
+      <p class="update-note">
+        <span class="live-dot" aria-hidden="true"></span>
+        오늘의 공모전 업데이트
+      </p>
+    </div>
+  </header>
 
-<h1>📢 IT 공모전 리스트</h1>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="eyebrow">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1.7 12.1 7l5.6 2.1-5.6 2.1L10 16.5l-2.1-5.3-5.6-2.1L7.9 7 10 1.7Z"/></svg>
+          기회는 생각보다 가까이 있어요
+        </p>
+        <h1 id="hero-title">당신의 아이디어가<br><span>다음 기회</span>를 만나는 곳</h1>
+        <p class="hero-description">흩어진 공모전 정보를 한눈에 살펴보고,<br class="mobile-break"> 놓치기 전에 도전해 보세요.</p>
 
-<input type="text" id="search" placeholder="검색...">
+        <dl class="stats" aria-label="공모전 현황">
+          <div>
+            <dt>접수 중</dt>
+            <dd><strong id="openCount">—</strong><span>개</span></dd>
+          </div>
+          <div>
+            <dt>IT 공모전</dt>
+            <dd><strong id="itCount">—</strong><span>개</span></dd>
+          </div>
+          <div>
+            <dt>마감 임박</dt>
+            <dd><strong id="urgentCount">—</strong><span>개</span></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
 
-<button id="showAll">전체 보기</button>
-<button id="showIT">IT만 보기</button>
+    <section class="browse-section" aria-labelledby="browse-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Discover</p>
+          <h2 id="browse-title">지금 도전할 공모전</h2>
+        </div>
+        <p>관심 분야와 키워드로 나에게 맞는 기회를 찾아보세요.</p>
+      </div>
 
-<div id="list"></div>
+      <div class="filter-panel">
+        <label class="search-box" for="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.9a8.25 8.25 0 1 1-16.5 0 8.25 8.25 0 0 1 16.5 0Z"/></svg>
+          <input type="search" id="search" placeholder="공모전명이나 주최 기관을 검색해 보세요" autocomplete="off">
+          <kbd>⌘ K</kbd>
+        </label>
 
-<script src="app.js"></script>
+        <div class="filter-row">
+          <div class="filter-tabs" role="group" aria-label="공모전 분류">
+            <button class="filter-button active" id="showAll" type="button" data-mode="all" aria-pressed="true">전체</button>
+            <button class="filter-button" id="showIT" type="button" data-mode="it" aria-pressed="false">IT · 테크</button>
+            <button class="filter-button" id="showUrgent" type="button" data-mode="urgent" aria-pressed="false">
+              <span class="urgent-dot" aria-hidden="true"></span>마감 임박
+            </button>
+          </div>
+
+          <label class="sort-control" for="sort">
+            <span class="sr-only">정렬 기준</span>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3v14m0 0-3-3m3 3 3-3M15 17V3m0 0-3 3m3-3 3 3"/></svg>
+            <select id="sort">
+              <option value="deadline">마감일 빠른 순</option>
+              <option value="latest">마감일 늦은 순</option>
+              <option value="title">이름순</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="results-meta" aria-live="polite">
+        <p><strong id="resultCount">0</strong>개의 공모전을 찾았어요</p>
+        <p class="today-label" id="todayLabel"></p>
+      </div>
+
+      <div class="contest-grid" id="list" aria-busy="true">
+        <article class="card skeleton-card" aria-hidden="true"></article>
+        <article class="card skeleton-card" aria-hidden="true"></article>
+        <article class="card skeleton-card" aria-hidden="true"></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a class="brand footer-brand" href="#top">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Contestly</span>
+      </a>
+      <p>도전하고 싶은 마음이 사라지기 전에.</p>
+    </div>
+    <a href="#top" class="back-to-top">위로 가기 <span aria-hidden="true">↑</span></a>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
