@@ -4688,6 +4688,22 @@
     "source": "씽굿"
   },
   {
+    "id": "thinkcontest-110595",
+    "title": "2026년 이천시 숏폼 콘텐츠 공모전",
+    "organization": "이천시청",
+    "start_date": "2026-09-14",
+    "deadline": "2026-09-23",
+    "category": "기획/아이디어, 영상/UCC",
+    "category_group": "ETC",
+    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
+    "award": "1천만원 미만",
+    "award_detail": "500만원",
+    "apply_method": "이메일",
+    "status": "접수 예정",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110595",
+    "source": "씽굿"
+  },
+  {
     "id": "thinkcontest-110402",
     "title": "[2026년 J-STEM Challenge] 전북 청소년 미래공학 경진대회",
     "organization": "한국여성과학기술인 육성재단 WISET",
@@ -8557,6 +8573,22 @@
     "apply_method": "홈페이지",
     "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=109170",
+    "source": "씽굿"
+  },
+  {
+    "id": "thinkcontest-110592",
+    "title": "NEXT SPACE DESIGN AWARD 2026",
+    "organization": "(사)한국실내건축가협회",
+    "start_date": "2026-08-28",
+    "deadline": "2026-10-07",
+    "category": "건축, 기획/아이디어, 디자인",
+    "category_group": "ETC",
+    "eligibility": "일반인, 기타",
+    "award": "3천만원 미만~1천만원 이상",
+    "award_detail": "1000만원",
+    "apply_method": "웹하드",
+    "status": "접수 중",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110592",
     "source": "씽굿"
   },
   {
