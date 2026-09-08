@@ -1,5 +1,6 @@
 const STORAGE_KEY = "contestly-tracker-v1";
 const DAY_IN_MS = 1000 * 60 * 60 * 24;
+const PAGE_SIZE = 24;
 
 const PROGRESS = {
   saved: { label: "관심 있음", shortLabel: "관심" },
@@ -16,7 +17,7 @@ const state = {
   category: "all",
   eligibility: "all",
   deadlineRange: "all",
-  visibleCount: 24,
+  currentPage: 1,
   tracker: loadTracker(),
   editingId: null,
 };
@@ -30,7 +31,7 @@ const elements = {
   deadlineFilter: document.getElementById("deadlineFilter"),
   resetFilters: document.getElementById("resetFilters"),
   resultCount: document.getElementById("resultCount"),
-  loadMore: document.getElementById("loadMore"),
+  pagination: document.getElementById("pagination"),
   openCount: document.getElementById("openCount"),
   itCount: document.getElementById("itCount"),
   urgentCount: document.getElementById("urgentCount"),
@@ -223,11 +224,12 @@ function getFilteredContests() {
 
 function render() {
   const filtered = getFilteredContests();
-  const visible = filtered.slice(0, state.visibleCount);
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  state.currentPage = Math.min(state.currentPage, totalPages);
+  const startIndex = (state.currentPage - 1) * PAGE_SIZE;
+  const visible = filtered.slice(startIndex, startIndex + PAGE_SIZE);
   elements.list.setAttribute("aria-busy", "false");
   elements.resultCount.textContent = filtered.length.toLocaleString("ko-KR");
-  elements.loadMore.hidden = visible.length >= filtered.length;
-  elements.loadMore.textContent = `공모전 더 보기 (${visible.length.toLocaleString("ko-KR")} / ${filtered.length.toLocaleString("ko-KR")})`;
 
   if (filtered.length === 0) {
     elements.list.innerHTML = `
@@ -240,8 +242,57 @@ function render() {
     elements.list.innerHTML = visible.map(createCard).join("");
   }
 
+  renderPagination(filtered.length, totalPages);
   renderBoard();
   updateSavedCount();
+}
+
+function getPaginationItems(totalPages) {
+  if (totalPages <= 7) return Array.from({ length: totalPages }, (_, index) => index + 1);
+
+  const pages = new Set([1, totalPages, state.currentPage - 1, state.currentPage, state.currentPage + 1]);
+  if (state.currentPage <= 4) [2, 3, 4, 5].forEach((page) => pages.add(page));
+  if (state.currentPage >= totalPages - 3) {
+    [totalPages - 4, totalPages - 3, totalPages - 2, totalPages - 1].forEach((page) => pages.add(page));
+  }
+
+  const sorted = [...pages].filter((page) => page > 0 && page <= totalPages).sort((a, b) => a - b);
+  const items = [];
+  sorted.forEach((page, index) => {
+    if (index && page - sorted[index - 1] > 1) items.push("ellipsis");
+    items.push(page);
+  });
+  return items;
+}
+
+function renderPagination(resultCount, totalPages) {
+  elements.pagination.hidden = resultCount <= PAGE_SIZE;
+  if (elements.pagination.hidden) {
+    elements.pagination.innerHTML = "";
+    return;
+  }
+
+  const pageButtons = getPaginationItems(totalPages).map((item) => {
+    if (item === "ellipsis") return '<span class="pagination-ellipsis" aria-hidden="true">…</span>';
+    const isCurrent = item === state.currentPage;
+    return `<button type="button" data-page="${item}"${isCurrent ? ' class="active" aria-current="page"' : ""} aria-label="${item}페이지">${item}</button>`;
+  }).join("");
+
+  elements.pagination.innerHTML = `
+    <button class="pagination-arrow" type="button" data-page="prev" aria-label="이전 페이지"${state.currentPage === 1 ? " disabled" : ""}>←</button>
+    ${pageButtons}
+    <button class="pagination-arrow" type="button" data-page="next" aria-label="다음 페이지"${state.currentPage === totalPages ? " disabled" : ""}>→</button>
+  `;
+}
+
+function goToPage(page) {
+  const totalPages = Math.max(1, Math.ceil(getFilteredContests().length / PAGE_SIZE));
+  state.currentPage = Math.min(Math.max(page, 1), totalPages);
+  render();
+  document.getElementById("browse-title").scrollIntoView({
+    behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+    block: "start",
+  });
 }
 
 function createBoardItem(contest) {
@@ -442,7 +493,7 @@ function resetFilters() {
   state.category = "all";
   state.eligibility = "all";
   state.deadlineRange = "all";
-  state.visibleCount = 24;
+  state.currentPage = 1;
   elements.search.value = "";
   elements.sort.value = "deadline";
   elements.categoryFilter.value = "all";
@@ -484,38 +535,38 @@ async function loadContests() {
 
 elements.search.addEventListener("input", (event) => {
   state.keyword = event.target.value;
-  state.visibleCount = 24;
+  state.currentPage = 1;
   render();
 });
 
 elements.sort.addEventListener("change", (event) => {
   state.sort = event.target.value;
-  state.visibleCount = 24;
+  state.currentPage = 1;
   render();
 });
 
 elements.categoryFilter.addEventListener("change", (event) => {
   state.category = event.target.value;
-  state.visibleCount = 24;
+  state.currentPage = 1;
   render();
 });
 
 elements.eligibilityFilter.addEventListener("change", (event) => {
   state.eligibility = event.target.value;
-  state.visibleCount = 24;
+  state.currentPage = 1;
   render();
 });
 
 elements.deadlineFilter.addEventListener("change", (event) => {
   state.deadlineRange = event.target.value;
-  state.visibleCount = 24;
+  state.currentPage = 1;
   render();
 });
 
 elements.filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
     state.mode = button.dataset.mode;
-    state.visibleCount = 24;
+    state.currentPage = 1;
     elements.filterButtons.forEach((item) => {
       const isActive = item === button;
       item.classList.toggle("active", isActive);
@@ -526,9 +577,13 @@ elements.filterButtons.forEach((button) => {
 });
 
 elements.resetFilters.addEventListener("click", resetFilters);
-elements.loadMore.addEventListener("click", () => {
-  state.visibleCount += 24;
-  render();
+elements.pagination.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-page]");
+  if (!button || button.disabled) return;
+  const target = button.dataset.page;
+  if (target === "prev") return goToPage(state.currentPage - 1);
+  if (target === "next") return goToPage(state.currentPage + 1);
+  goToPage(Number(target));
 });
 elements.list.addEventListener("click", handleContestAction);
 elements.challengeBoard.addEventListener("click", handleContestAction);
