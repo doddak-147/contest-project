@@ -17,10 +17,13 @@
         </span>
         <span>Contestly</span>
       </a>
-      <p class="update-note">
-        <span class="live-dot" aria-hidden="true"></span>
-        오늘의 공모전 업데이트
-      </p>
+      <div class="header-actions">
+        <a class="saved-shortcut" href="#challenge">내 도전 <span id="savedCount">0</span></a>
+        <p class="update-note">
+          <span class="live-dot" aria-hidden="true"></span>
+          오늘의 공모전 업데이트
+        </p>
+      </div>
     </div>
   </header>
 
@@ -76,6 +79,7 @@
             <button class="filter-button" id="showUrgent" type="button" data-mode="urgent" aria-pressed="false">
               <span class="urgent-dot" aria-hidden="true"></span>마감 임박
             </button>
+            <button class="filter-button" id="showSaved" type="button" data-mode="saved" aria-pressed="false">찜한 공모전</button>
           </div>
 
           <label class="sort-control" for="sort">
@@ -87,6 +91,35 @@
               <option value="title">이름순</option>
             </select>
           </label>
+        </div>
+
+        <div class="detail-filters" aria-label="상세 필터">
+          <label>
+            <span>분야</span>
+            <select id="categoryFilter">
+              <option value="all">모든 분야</option>
+            </select>
+          </label>
+          <label>
+            <span>응모 대상</span>
+            <select id="eligibilityFilter">
+              <option value="all">모든 대상</option>
+              <option value="student">대학생·대학원생</option>
+              <option value="youth">청소년</option>
+              <option value="adult">일반인</option>
+              <option value="anyone">누구나</option>
+            </select>
+          </label>
+          <label>
+            <span>남은 기간</span>
+            <select id="deadlineFilter">
+              <option value="all">전체 기간</option>
+              <option value="7">7일 이내</option>
+              <option value="30">30일 이내</option>
+              <option value="90">90일 이내</option>
+            </select>
+          </label>
+          <button class="reset-button" id="resetFilters" type="button">필터 초기화</button>
         </div>
       </div>
 
@@ -100,8 +133,60 @@
         <article class="card skeleton-card" aria-hidden="true"></article>
         <article class="card skeleton-card" aria-hidden="true"></article>
       </div>
+      <button class="load-more" id="loadMore" type="button" hidden>공모전 더 보기</button>
+    </section>
+
+    <section class="challenge-section" id="challenge" aria-labelledby="challenge-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">My Challenge</p>
+          <h2 id="challenge-title">내 도전 보드</h2>
+        </div>
+        <p id="savedSummary">찜한 공모전의 준비 과정을 한곳에서 관리하세요.</p>
+      </div>
+      <div class="challenge-board" id="challengeBoard"></div>
     </section>
   </main>
+
+  <dialog class="tracker-dialog" id="trackerDialog" aria-labelledby="trackerTitle">
+    <form id="trackerForm">
+      <div class="dialog-heading">
+        <div>
+          <p class="section-kicker">Challenge note</p>
+          <h2 id="trackerTitle">도전 준비 기록</h2>
+        </div>
+        <button class="dialog-close" type="button" data-close-dialog aria-label="닫기">×</button>
+      </div>
+      <p class="dialog-contest-title" id="trackerContestTitle"></p>
+      <label class="dialog-field">
+        <span>진행 상태</span>
+        <select id="trackerProgress">
+          <option value="saved">관심 있음</option>
+          <option value="researching">자료 조사</option>
+          <option value="preparing">제작 중</option>
+          <option value="submitted">제출 완료</option>
+        </select>
+      </label>
+      <label class="dialog-field">
+        <span>메모</span>
+        <textarea id="trackerNote" rows="4" placeholder="아이디어, 팀원, 제출 링크 등을 적어두세요."></textarea>
+      </label>
+      <fieldset class="checklist-field">
+        <legend>준비 체크리스트</legend>
+        <label><input type="checkbox" value="eligibility"> 참가 자격 확인</label>
+        <label><input type="checkbox" value="guideline"> 모집 요강 확인</label>
+        <label><input type="checkbox" value="document"> 신청서 작성</label>
+        <label><input type="checkbox" value="submission"> 제출물 제작</label>
+        <label><input type="checkbox" value="final"> 최종 제출 확인</label>
+      </fieldset>
+      <div class="dialog-actions">
+        <button class="secondary-button" type="button" data-close-dialog>취소</button>
+        <button class="primary-button" type="submit">기록 저장</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <footer class="site-footer">
     <div>
