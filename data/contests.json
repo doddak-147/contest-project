@@ -1,21 +1,5 @@
 [
   {
-    "id": "thinkcontest-111901",
-    "title": "﻿2026 해양 생태 변화 대응 사진·영상 공모전",
-    "organization": "행정안전부",
-    "start_date": "2026-10-01",
-    "deadline": "2026-10-24",
-    "category": "사진, 영상/UCC",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "50만원",
-    "apply_method": "접수폼",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111901",
-    "source": "씽굿"
-  },
-  {
     "id": "thinkcontest-111708",
     "title": "2026 AI 플랫폼 구축 경진대회 : AI Platform Build Challenge",
     "organization": "서울대학교 캠퍼스타운사업단",
@@ -795,7 +779,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "700만원",
     "apply_method": "접수폼, 이메일, 홈페이지, 방문",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=108728",
     "source": "씽굿"
   },
@@ -939,7 +923,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "이메일",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=108359",
     "source": "씽굿"
   },
@@ -1339,7 +1323,7 @@
     "award": "1천만원 미만",
     "award_detail": "200만원",
     "apply_method": "이메일",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107467",
     "source": "씽굿"
   },
@@ -1355,7 +1339,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "800만원",
     "apply_method": "접수폼",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112093",
     "source": "씽굿"
   },
@@ -1835,7 +1819,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "이메일, 우편",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=109557",
     "source": "씽굿"
   },
@@ -2208,6 +2192,22 @@
     "source": "씽굿"
   },
   {
+    "id": "thinkcontest-112248",
+    "title": "제1회 배경데이터 활용 콘텐츠개발 아이디어 공모전",
+    "organization": "광주정보문화산업진흥원",
+    "start_date": "2026-10-28",
+    "deadline": "2026-10-30",
+    "category": "기획/아이디어, 디자인, 영상/UCC",
+    "category_group": "IT",
+    "eligibility": "대학생, 대학원생, 일반인",
+    "award": "1천만원 미만",
+    "award_detail": "100",
+    "apply_method": "이메일, 홈페이지",
+    "status": "접수 예정",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112248",
+    "source": "씽굿"
+  },
+  {
     "id": "thinkcontest-111979",
     "title": "제3회 다대는TV 유튜브 영상 공모전",
     "organization": "다대1동 행정복지센터",
@@ -2331,7 +2331,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111892",
     "source": "씽굿"
   },
@@ -2363,7 +2363,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111895",
     "source": "씽굿"
   },
@@ -2395,7 +2395,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110892",
     "source": "씽굿"
   },
@@ -2427,7 +2427,7 @@
     "award": "1천만원 미만",
     "award_detail": "50만원",
     "apply_method": "접수폼, 이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111859",
     "source": "씽굿"
   },
@@ -2443,7 +2443,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "300만원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=108461",
     "source": "씽굿"
   },
@@ -2459,7 +2459,7 @@
     "award": "1천만원 미만",
     "award_detail": "50만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112031",
     "source": "씽굿"
   },
@@ -2475,7 +2475,7 @@
     "award": "1천만원 미만",
     "award_detail": "창작비 150만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111494",
     "source": "씽굿"
   },
@@ -2491,7 +2491,7 @@
     "award": "기타",
     "award_detail": "작품(제작)창작비 150만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111505",
     "source": "씽굿"
   },
@@ -2523,7 +2523,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "200만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103167",
     "source": "씽굿"
   },
@@ -2555,7 +2555,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "300만원",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110418",
     "source": "씽굿"
   },
@@ -2571,7 +2571,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111416",
     "source": "씽굿"
   },
@@ -2603,7 +2603,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111868",
     "source": "씽굿"
   },
@@ -2619,7 +2619,7 @@
     "award": "1천만원 미만",
     "award_detail": "대상 각 300만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=106545",
     "source": "씽굿"
   },
@@ -2635,7 +2635,7 @@
     "award": "1천만원 미만",
     "award_detail": "200만원",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111562",
     "source": "씽굿"
   },
@@ -2667,7 +2667,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=108904",
     "source": "씽굿"
   },
@@ -2699,7 +2699,7 @@
     "award": "기타",
     "award_detail": "팀당 100만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111850",
     "source": "씽굿"
   },
@@ -2731,7 +2731,7 @@
     "award": "기타",
     "award_detail": "30만원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111731",
     "source": "씽굿"
   },
@@ -2779,7 +2779,7 @@
     "award": "기타",
     "award_detail": "150만 원",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110454",
     "source": "씽굿"
   },
@@ -2795,7 +2795,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111920",
     "source": "씽굿"
   },
@@ -2827,7 +2827,7 @@
     "award": "기타",
     "award_detail": "100만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110485",
     "source": "씽굿"
   },
@@ -2859,7 +2859,7 @@
     "award": "1천만원 미만",
     "award_detail": "50만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110630",
     "source": "씽굿"
   },
@@ -2875,7 +2875,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "우편",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=109585",
     "source": "씽굿"
   },
@@ -2907,7 +2907,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "300만원",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111598",
     "source": "씽굿"
   },
@@ -2955,7 +2955,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111753",
     "source": "씽굿"
   },
@@ -2971,7 +2971,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "홈페이지, 기타",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111175",
     "source": "씽굿"
   },
@@ -2987,7 +2987,7 @@
     "award": "기타",
     "award_detail": "50만원",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110835",
     "source": "씽굿"
   },
@@ -3003,7 +3003,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "기타",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111069",
     "source": "씽굿"
   },
@@ -3019,7 +3019,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111445",
     "source": "씽굿"
   },
@@ -3051,7 +3051,7 @@
     "award": "1천만원 미만",
     "award_detail": "300만원",
     "apply_method": "웹하드, 우편",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=109900",
     "source": "씽굿"
   },
@@ -3099,7 +3099,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110310",
     "source": "씽굿"
   },
@@ -3115,7 +3115,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "이메일, 홈페이지, 기타",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111751",
     "source": "씽굿"
   },
@@ -3131,7 +3131,7 @@
     "award": "1천만원 미만",
     "award_detail": "300만원",
     "apply_method": "이메일, 우편",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111670",
     "source": "씽굿"
   },
@@ -3147,7 +3147,7 @@
     "award": "1천만원 미만",
     "award_detail": "200만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111891",
     "source": "씽굿"
   },
@@ -3163,7 +3163,7 @@
     "award": "1천만원 미만",
     "award_detail": "200만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110315",
     "source": "씽굿"
   },
@@ -3179,7 +3179,7 @@
     "award": "1천만원 미만",
     "award_detail": "200만원",
     "apply_method": "우편",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110778",
     "source": "씽굿"
   },
@@ -3211,7 +3211,7 @@
     "award": "1천만원 미만",
     "award_detail": "50만원",
     "apply_method": "우편",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110017",
     "source": "씽굿"
   },
@@ -3259,7 +3259,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "300만 원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110840",
     "source": "씽굿"
   },
@@ -3275,7 +3275,7 @@
     "award": "5천만원 미만~3천만원 이상",
     "award_detail": "150만원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=109777",
     "source": "씽굿"
   },
@@ -3291,7 +3291,7 @@
     "award": "1천만원 미만",
     "award_detail": "데스커 모션데스크 알파 (685,000원 상당)",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111253",
     "source": "씽굿"
   },
@@ -3339,7 +3339,7 @@
     "award": "기타",
     "award_detail": "트로피",
     "apply_method": "이메일, 기타",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110655",
     "source": "씽굿"
   },
@@ -3403,7 +3403,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111386",
     "source": "씽굿"
   },
@@ -3419,7 +3419,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111674",
     "source": "씽굿"
   },
@@ -3451,7 +3451,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111461",
     "source": "씽굿"
   },
@@ -3499,7 +3499,7 @@
     "award": "1천만원 미만",
     "award_detail": "총 53팀, 540만 원 상당의 상금!",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110635",
     "source": "씽굿"
   },
@@ -3515,7 +3515,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "500만원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112094",
     "source": "씽굿"
   },
@@ -3531,7 +3531,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "이메일",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111937",
     "source": "씽굿"
   },
@@ -3547,7 +3547,7 @@
     "award": "1천만원 미만",
     "award_detail": "",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111315",
     "source": "씽굿"
   },
@@ -3563,7 +3563,7 @@
     "award": "1천만원 미만",
     "award_detail": "40만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112030",
     "source": "씽굿"
   },
@@ -3611,7 +3611,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107535",
     "source": "씽굿"
   },
@@ -3627,7 +3627,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110633",
     "source": "씽굿"
   },
@@ -3643,7 +3643,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111546",
     "source": "씽굿"
   },
@@ -3659,7 +3659,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112231",
     "source": "씽굿"
   },
@@ -3707,7 +3707,7 @@
     "award": "1천만원 미만",
     "award_detail": "150만원",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111902",
     "source": "씽굿"
   },
@@ -3739,7 +3739,7 @@
     "award": "1천만원 미만",
     "award_detail": "200만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111241",
     "source": "씽굿"
   },
@@ -3787,7 +3787,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112035",
     "source": "씽굿"
   },
@@ -4123,7 +4123,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "기타",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112245",
     "source": "씽굿"
   },
@@ -4347,7 +4347,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "이메일",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111984",
     "source": "씽굿"
   },
@@ -4555,7 +4555,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "이메일",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112188",
     "source": "씽굿"
   },
@@ -5115,7 +5115,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "홈페이지",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112105",
     "source": "씽굿"
   },
@@ -6011,7 +6011,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "이메일, 우편, 방문",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112243",
     "source": "씽굿"
   },
@@ -6347,7 +6347,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "이메일",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111739",
     "source": "씽굿"
   },
@@ -6459,7 +6459,7 @@
     "award": "1천만원 미만",
     "award_detail": "200만원",
     "apply_method": "접수폼",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112134",
     "source": "씽굿"
   },
@@ -7371,7 +7371,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "이메일",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111977",
     "source": "씽굿"
   },
@@ -7451,7 +7451,7 @@
     "award": "기타",
     "award_detail": "300만원",
     "apply_method": "홈페이지",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112244",
     "source": "씽굿"
   },
@@ -7645,6 +7645,22 @@
     "apply_method": "접수폼",
     "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111829",
+    "source": "씽굿"
+  },
+  {
+    "id": "thinkcontest-112246",
+    "title": "두찜에서 맥북 네오 쏜다! 두찜 꿀조합 SNS 인증 이벤트",
+    "organization": "기영에프앤비",
+    "start_date": "2026-10-01",
+    "deadline": "2026-11-30",
+    "category": "광고/마케팅, 사진, 영상/UCC",
+    "category_group": "ETC",
+    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
+    "award": "기타",
+    "award_detail": "",
+    "apply_method": "접수폼",
+    "status": "접수 중",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112246",
     "source": "씽굿"
   },
   {
@@ -7979,7 +7995,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "접수폼, 홈페이지",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112122",
     "source": "씽굿"
   },
