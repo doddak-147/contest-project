@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T11:30:27+09:00",
+  "updated_at": "2026-11-03T14:18:11+09:00",
   "count": 509,
   "raw_count": 574,
   "duplicate_count": 65,
@@ -7,7 +7,7 @@
     "thinkcontest": {
       "name": "씽굿",
       "url": "https://www.thinkcontest.com/thinkgood/user/contest/index.do",
-      "last_success_at": "2026-11-03T11:30:27+09:00",
+      "last_success_at": "2026-11-03T14:18:11+09:00",
       "scope": "active",
       "max_pages": null,
       "status": "success",
@@ -18,7 +18,7 @@
     "wevity": {
       "name": "위비티",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1",
-      "last_success_at": "2026-11-03T11:29:43+09:00",
+      "last_success_at": "2026-11-03T14:17:50+09:00",
       "scope": "recent",
       "max_pages": 5,
       "status": "success",
@@ -29,7 +29,7 @@
     "contestkorea": {
       "name": "콘테스트코리아",
       "url": "https://www.contestkorea.com/sub/list.php?int_gbn=1",
-      "last_success_at": "2026-11-03T11:29:47+09:00",
+      "last_success_at": "2026-11-03T14:17:30+09:00",
       "scope": "recent",
       "max_pages": 5,
       "status": "success",
