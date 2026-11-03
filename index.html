@@ -18,10 +18,14 @@
         <span>Contestly</span>
       </a>
       <div class="header-actions">
+        <span class="account-name" id="accountName"></span>
+        <a class="header-button" id="adminLink" href="/admin" hidden>운영 관리</a>
+        <button class="header-button" id="accountButton" type="button" hidden>로그인</button>
+        <button class="header-button" id="logoutButton" type="button" hidden>로그아웃</button>
         <a class="saved-shortcut" href="#challenge">내 도전 <span id="savedCount">0</span></a>
         <p class="update-note">
           <span class="live-dot" aria-hidden="true"></span>
-          오늘의 공모전 업데이트
+          <span id="sourceUpdateLabel">여러 곳의 공모전을 한곳에</span>
         </p>
       </div>
     </div>
@@ -95,6 +99,22 @@
 
         <div class="detail-filters" aria-label="상세 필터">
           <label>
+            <span>접수 상태</span>
+            <select id="statusFilter">
+              <option value="active">접수 중·예정</option>
+              <option value="open">접수 중</option>
+              <option value="upcoming">접수 예정</option>
+              <option value="closed">접수 종료</option>
+              <option value="all">전체 상태</option>
+            </select>
+          </label>
+          <label>
+            <span>출처</span>
+            <select id="sourceFilter">
+              <option value="all">모든 사이트</option>
+            </select>
+          </label>
+          <label>
             <span>분야</span>
             <select id="categoryFilter">
               <option value="all">모든 분야</option>
@@ -145,6 +165,10 @@
         <p id="savedSummary">찜한 공모전의 준비 과정을 한곳에서 관리하세요.</p>
       </div>
       <div class="challenge-board" id="challengeBoard"></div>
+      <div class="storage-controls">
+        <p id="storageNote">지금은 이 브라우저에 저장돼요. 로그인하면 계정으로 관리할 수 있어요.</p>
+        <button class="secondary-button" id="importGuest" type="button" hidden>이 기기의 찜 가져오기</button>
+      </div>
     </section>
   </main>
 
@@ -188,6 +212,25 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+  <dialog class="tracker-dialog" id="accountDialog" aria-labelledby="accountTitle">
+    <form id="accountForm">
+      <div class="dialog-heading"><h2 id="accountTitle">도전을 이어가세요</h2><button class="dialog-close" id="closeAccount" type="button" aria-label="닫기">×</button></div>
+      <label class="dialog-field"><span>아이디 (영문·숫자·_.- / 3~32자)</span><input id="username" required minlength="3" maxlength="32" pattern="[a-zA-Z0-9_.-]+" autocomplete="username"></label>
+      <label class="dialog-field" id="displayNameField" hidden><span>표시 이름</span><input id="displayName" maxlength="40" autocomplete="nickname"></label>
+      <label class="dialog-field"><span>비밀번호 (12자 이상)</span><input id="password" type="password" required minlength="12" maxlength="128" autocomplete="current-password"></label>
+      <p class="form-error" id="accountError" role="alert"></p>
+      <div class="dialog-actions"><button class="primary-button" id="accountSubmit" type="submit">로그인</button></div>
+      <button class="text-button" id="accountSwitch" type="button">처음이신가요? 계정 만들기</button>
+    </form>
+  </dialog>
+
+  <dialog class="tracker-dialog" id="historyDialog" aria-labelledby="historyTitle">
+    <div class="history-content">
+      <div class="dialog-heading"><h2 id="historyTitle">공고 변경 이력</h2><button class="dialog-close" id="closeHistory" type="button" aria-label="닫기">×</button></div>
+      <div id="historyList"></div>
+    </div>
+  </dialog>
+
   <footer class="site-footer">
     <div>
       <a class="brand footer-brand" href="#top">
@@ -199,6 +242,7 @@
     <a href="#top" class="back-to-top">위로 가기 <span aria-hidden="true">↑</span></a>
   </footer>
 
+  <script src="api.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
