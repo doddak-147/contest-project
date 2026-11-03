@@ -1,0 +1,54 @@
+name: Application checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: contestly
+          POSTGRES_PASSWORD: ci-only-password
+          POSTGRES_DB: contestly_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd 'pg_isready -U contestly -d contestly_test'
+          --health-interval 10s --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      - name: Unit and API integration tests
+        env:
+          TEST_DATABASE_URL: postgresql+psycopg://contestly:ci-only-password@localhost:5432/contestly_test
+        run: python -B -m unittest discover -s tests -v
+      - name: Browser workflows
+        run: python -B scripts/verify_browser.py
+      - name: SQLite recovery drill
+        run: |
+          python -m backend.manage init-db
+          python -m backend.manage import-data
+          python -B scripts/verify_recovery.py
+      - name: Upload verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-evidence
+          path: |
+            runtime/browser-qa/
+            runtime/recovery-qa/**/report.json
+
+  container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t contestly:check .

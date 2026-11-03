@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>운영 관리 — Contestly</title><link rel="stylesheet" href="/style.css">
+</head>
+<body class="admin-body">
+  <header class="admin-header"><a class="brand" href="/">Contestly <span>운영 관리</span></a><a href="/">공모전 목록으로 ↗</a></header>
+  <main class="admin-main">
+    <div class="section-heading"><div><p class="section-kicker">Operations</p><h1>서비스 운영 현황</h1></div><button class="secondary-button" id="refreshAdmin" type="button">새로고침</button></div>
+    <p class="form-error" id="adminError" role="alert"></p>
+    <div id="adminContent" hidden>
+      <div class="admin-metrics" id="adminMetrics"></div>
+      <section class="admin-panel"><h2>출처별 수집 상태</h2><div class="admin-sources" id="adminSources"></div>
+        <form class="collection-form" id="collectForm">
+          <fieldset><legend>다시 수집할 사이트</legend><label><input type="checkbox" name="source" value="thinkcontest" checked> 씽굿</label><label><input type="checkbox" name="source" value="wevity" checked> 위비티</label><label><input type="checkbox" name="source" value="contestkorea" checked> 콘테스트코리아</label></fieldset>
+          <label>추가 사이트의 목록 페이지 수 <input id="maxPages" type="number" min="1" max="20" value="5" required></label>
+          <button class="primary-button" id="collectButton" type="submit">선택한 사이트 수집</button>
+        </form>
+      </section>
+      <section class="admin-panel"><h2>최근 수집 실행</h2><div class="table-scroll"><table class="admin-table"><thead><tr><th>시작 시각</th><th>실행 방식</th><th>상태</th><th>반영 결과</th></tr></thead><tbody id="runList"></tbody></table></div></section>
+      <section class="admin-panel"><h2>마감일 정보 충돌 검토</h2><p class="panel-description">제목과 기관이 같지만 마감일이 다르게 등록된 공고입니다. 원문을 확인한 뒤 검토 결과를 기록하세요.</p><div id="conflictList"></div></section>
+      <section class="admin-panel"><h2>사용자 권한</h2><div class="table-scroll"><table class="admin-table"><thead><tr><th>아이디</th><th>이름</th><th>권한</th><th>변경</th></tr></thead><tbody id="userList"></tbody></table></div></section>
+      <section class="admin-panel"><h2>관리 작업 기록</h2><div class="table-scroll"><table class="admin-table"><thead><tr><th>시각</th><th>사용자 번호</th><th>작업</th><th>대상·내용</th></tr></thead><tbody id="auditList"></tbody></table></div></section>
+    </div>
+  </main>
+  <div class="toast" id="toast" role="status"></div><script src="/admin.js"></script>
+</body>
+</html>

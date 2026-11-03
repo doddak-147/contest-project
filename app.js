@@ -17,7 +17,13 @@ const state = {
   category: "all",
   eligibility: "all",
   deadlineRange: "all",
+  source: "all",
   currentPage: 1,
+  status: "active",
+  apiMode: false,
+  serverPage: null,
+  boardContests: [],
+  facets: null,
   tracker: loadTracker(),
   editingId: null,
 };
@@ -29,6 +35,9 @@ const elements = {
   categoryFilter: document.getElementById("categoryFilter"),
   eligibilityFilter: document.getElementById("eligibilityFilter"),
   deadlineFilter: document.getElementById("deadlineFilter"),
+  sourceFilter: document.getElementById("sourceFilter"),
+  statusFilter: document.getElementById("statusFilter"),
+  sourceUpdateLabel: document.getElementById("sourceUpdateLabel"),
   resetFilters: document.getElementById("resetFilters"),
   resultCount: document.getElementById("resultCount"),
   pagination: document.getElementById("pagination"),
@@ -58,6 +67,10 @@ function loadTracker() {
 }
 
 function saveTracker() {
+  if (Api.user) return;
+  for (const contest of [...state.contests, ...state.boardContests]) {
+    if (state.tracker[contest.id]) state.tracker[contest.id].snapshot = contest;
+  }
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state.tracker));
 }
 
@@ -75,6 +88,9 @@ function normalizeContest(contest) {
   return {
     ...contest,
     id: getContestId(contest),
+    sources: Array.isArray(contest.sources) && contest.sources.length
+      ? contest.sources
+      : [{ id: getContestId(contest), name: contest.source || "씽굿", url: contest.link }],
     category: legacyCategory ? (contest.category === "IT" ? "IT · 테크" : "기타") : contest.category || "기타",
     category_group: contest.category_group || (contest.category === "IT" ? "IT" : "ETC"),
     eligibility: contest.eligibility || "공고에서 확인",
@@ -83,22 +99,53 @@ function normalizeContest(contest) {
   };
 }
 
+function migrateTrackerAliases() {
+  let changed = false;
+  const progressOrder = Object.keys(PROGRESS);
+  if (Api.user) return;
+  for (const contest of [...state.contests, ...state.boardContests]) {
+    for (const alias of contest.aliases || []) {
+      if (alias === contest.id || !state.tracker[alias]) continue;
+      const oldEntry = state.tracker[alias];
+      const current = state.tracker[contest.id];
+      if (!current) {
+        state.tracker[contest.id] = oldEntry;
+      } else {
+        if (progressOrder.indexOf(oldEntry.progress) > progressOrder.indexOf(current.progress)) {
+          current.progress = oldEntry.progress;
+        }
+        current.checklist = [...new Set([...(current.checklist || []), ...(oldEntry.checklist || [])])];
+        current.note = [...new Set([current.note, oldEntry.note].filter(Boolean))].join("\n\n");
+        current.savedAt = [current.savedAt, oldEntry.savedAt].filter(Boolean).sort()[0];
+      }
+      delete state.tracker[alias];
+      changed = true;
+    }
+  }
+  if (changed) saveTracker();
+}
+
 function parseDate(dateString) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(String(dateString))) return new Date(NaN);
   const [year, month, day] = dateString.split("-").map(Number);
-  return new Date(year, month - 1, day);
+  return new Date(Date.UTC(year, month - 1, day));
+}
+
+function todayKst() {
+  const parts = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(new Date());
+  const value = (type) => parts.find((part) => part.type === type).value;
+  return `${value("year")}-${value("month")}-${value("day")}`;
 }
 
 function getDDay(deadline) {
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  return Math.round((parseDate(deadline) - today) / DAY_IN_MS);
+  return Math.round((parseDate(deadline) - parseDate(todayKst())) / DAY_IN_MS);
 }
 
-function getDeadlineInfo(deadline) {
+function getDeadlineInfo(deadline, startDate = "") {
   const dDay = getDDay(deadline);
   if (!Number.isFinite(dDay)) return { label: "미정", status: "closed", statusText: "일정 확인" };
   if (dDay < 0) return { label: "마감", status: "closed", statusText: "접수 종료" };
+  if (startDate && startDate > todayKst()) return { label: `D-${dDay}`, status: "upcoming", statusText: "접수 예정" };
   if (dDay === 0) return { label: "D-DAY", status: "urgent", statusText: "오늘 마감" };
   if (dDay <= 7) return { label: `D-${dDay}`, status: "urgent", statusText: "마감 임박" };
   return { label: `D-${dDay}`, status: "open", statusText: "접수 중" };
@@ -108,6 +155,7 @@ function formatDate(dateString) {
   const date = parseDate(dateString);
   if (Number.isNaN(date.getTime())) return "일정 미정";
   return new Intl.DateTimeFormat("ko-KR", {
+    timeZone: "UTC",
     month: "short",
     day: "numeric",
     weekday: "short",
@@ -137,7 +185,7 @@ function isSaved(id) {
 }
 
 function createCard(contest) {
-  const deadline = getDeadlineInfo(contest.deadline);
+  const deadline = getDeadlineInfo(contest.deadline, contest.start_date);
   const saved = isSaved(contest.id);
   const categoryClass = contest.category_group === "IT" ? "it" : "etc";
   const progress = state.tracker[contest.id]?.progress || "saved";
@@ -161,6 +209,11 @@ function createCard(contest) {
       <div class="contest-details">
         <span title="${escapeHtml(contest.eligibility)}">대상 · ${escapeHtml(contest.eligibility)}</span>
         <span title="${escapeHtml(contest.award)}">시상 · ${escapeHtml(contest.award)}</span>
+      </div>
+      <div class="contest-sources" aria-label="공모전 출처">
+        <span>출처</span>
+        ${contest.sources.map((source) => `<a href="${safeLink(source.url)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(source.name)}에서 공고 열기">${escapeHtml(source.name)} ↗</a>`).join("")}
+        ${state.apiMode ? '<button class="history-button" type="button" data-action="history">변경 이력</button>' : ""}
       </div>
       ${saved ? `
         <button class="progress-chip" type="button" data-action="tracker">
@@ -200,18 +253,25 @@ function getFilteredContests() {
   const normalizedKeyword = state.keyword.trim().toLocaleLowerCase("ko-KR");
   const range = state.deadlineRange === "all" ? Infinity : Number(state.deadlineRange);
 
-  const filtered = state.contests.filter((contest) => {
+  const catalogue = state.apiMode && state.mode === "saved" && !Api.user ? state.boardContests : state.contests;
+  const filtered = catalogue.filter((contest) => {
     const dDay = getDDay(contest.deadline);
+    const reception = getDeadlineInfo(contest.deadline, contest.start_date).status;
+    const open = reception === "open" || reception === "urgent";
+    const matchesStatus = state.status === "all" || (state.status === "active" && dDay >= 0) ||
+      (state.status === "open" && open) || (state.status === "upcoming" && reception === "upcoming") ||
+      (state.status === "closed" && reception === "closed");
     const matchesMode =
       state.mode === "all" ||
       (state.mode === "it" && contest.category_group === "IT") ||
-      (state.mode === "urgent" && dDay >= 0 && dDay <= 7) ||
+      (state.mode === "urgent" && open && dDay <= 7) ||
       (state.mode === "saved" && isSaved(contest.id));
-    const searchableText = `${contest.title} ${contest.organization} ${contest.category} ${contest.eligibility}`.toLocaleLowerCase("ko-KR");
+    const searchableText = `${contest.title} ${contest.organization} ${contest.category} ${contest.eligibility} ${contest.sources.map((source) => source.name).join(" ")}`.toLocaleLowerCase("ko-KR");
     const matchesCategory = state.category === "all" || contest.category === state.category;
     const matchesDeadline = range === Infinity || (dDay >= 0 && dDay <= range);
+    const matchesSource = state.source === "all" || contest.sources.some((source) => source.name === state.source);
 
-    return matchesMode && matchesCategory && matchesEligibility(contest, state.eligibility) &&
+    return matchesMode && matchesStatus && matchesSource && matchesCategory && matchesEligibility(contest, state.eligibility) &&
       matchesDeadline && searchableText.includes(normalizedKeyword);
   });
 
@@ -223,13 +283,15 @@ function getFilteredContests() {
 }
 
 function render() {
-  const filtered = getFilteredContests();
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const server = usesServerPage();
+  const filtered = server ? state.contests : getFilteredContests();
+  const total = server ? state.serverPage?.total || 0 : filtered.length;
+  const totalPages = server ? state.serverPage?.pages || 1 : Math.max(1, Math.ceil(total / PAGE_SIZE));
   state.currentPage = Math.min(state.currentPage, totalPages);
   const startIndex = (state.currentPage - 1) * PAGE_SIZE;
-  const visible = filtered.slice(startIndex, startIndex + PAGE_SIZE);
+  const visible = server ? filtered : filtered.slice(startIndex, startIndex + PAGE_SIZE);
   elements.list.setAttribute("aria-busy", "false");
-  elements.resultCount.textContent = filtered.length.toLocaleString("ko-KR");
+  elements.resultCount.textContent = total.toLocaleString("ko-KR");
 
   if (filtered.length === 0) {
     elements.list.innerHTML = `
@@ -242,7 +304,7 @@ function render() {
     elements.list.innerHTML = visible.map(createCard).join("");
   }
 
-  renderPagination(filtered.length, totalPages);
+  renderPagination(total, totalPages);
   renderBoard();
   updateSavedCount();
 }
@@ -285,10 +347,10 @@ function renderPagination(resultCount, totalPages) {
   `;
 }
 
-function goToPage(page) {
-  const totalPages = Math.max(1, Math.ceil(getFilteredContests().length / PAGE_SIZE));
+async function goToPage(page) {
+  const totalPages = usesServerPage() ? state.serverPage?.pages || 1 : Math.max(1, Math.ceil(getFilteredContests().length / PAGE_SIZE));
   state.currentPage = Math.min(Math.max(page, 1), totalPages);
-  render();
+  await refreshCatalogue();
   document.getElementById("browse-title").scrollIntoView({
     behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
     block: "start",
@@ -314,7 +376,8 @@ function createBoardItem(contest) {
 }
 
 function renderBoard() {
-  const savedContests = state.contests.filter((contest) => isSaved(contest.id));
+  const catalogue = new Map([...state.contests, ...state.boardContests].map((contest) => [contest.id, contest]));
+  const savedContests = [...catalogue.values()].filter((contest) => isSaved(contest.id));
   elements.savedSummary.textContent = savedContests.length
     ? `${savedContests.length}개의 도전을 준비하고 있어요.`
     : "찜한 공모전의 준비 과정을 한곳에서 관리하세요.";
@@ -342,11 +405,18 @@ function renderBoard() {
 }
 
 function updateStats() {
-  const open = state.contests.filter((contest) => getDDay(contest.deadline) >= 0).length;
-  const it = state.contests.filter((contest) => contest.category_group === "IT" && getDDay(contest.deadline) >= 0).length;
+  if (state.apiMode && state.serverPage?.stats) {
+    elements.openCount.textContent = state.serverPage.stats.open.toLocaleString("ko-KR");
+    elements.itCount.textContent = state.serverPage.stats.it.toLocaleString("ko-KR");
+    elements.urgentCount.textContent = state.serverPage.stats.urgent.toLocaleString("ko-KR");
+    return;
+  }
+  const isOpen = (contest) => ["open", "urgent"].includes(getDeadlineInfo(contest.deadline, contest.start_date).status);
+  const open = state.contests.filter(isOpen).length;
+  const it = state.contests.filter((contest) => contest.category_group === "IT" && isOpen(contest)).length;
   const urgent = state.contests.filter((contest) => {
     const dDay = getDDay(contest.deadline);
-    return dDay >= 0 && dDay <= 7;
+    return isOpen(contest) && dDay <= 7;
   }).length;
 
   elements.openCount.textContent = open.toLocaleString("ko-KR");
@@ -355,22 +425,34 @@ function updateStats() {
 }
 
 function updateSavedCount() {
-  const validIds = new Set(state.contests.map((contest) => contest.id));
-  const count = Object.keys(state.tracker).filter((id) => validIds.has(id)).length;
+  const count = Object.keys(state.tracker).length;
   elements.savedCount.textContent = count.toLocaleString("ko-KR");
 }
 
 function populateCategoryFilter() {
-  const categories = [...new Set(state.contests.map((contest) => contest.category))]
+  const categories = state.facets?.categories || [...new Set(state.contests.map((contest) => contest.category))]
     .filter(Boolean)
     .sort((a, b) => a.localeCompare(b, "ko"));
-  elements.categoryFilter.insertAdjacentHTML(
-    "beforeend",
-    categories.map((category) => `<option value="${escapeHtml(category)}">${escapeHtml(category)}</option>`).join("")
-  );
+  elements.categoryFilter.innerHTML = '<option value="all">모든 분야</option>' + categories.map((category) => `<option value="${escapeHtml(category)}">${escapeHtml(category)}</option>`).join("");
+  const sources = state.facets?.sources || [...new Set(state.contests.flatMap((contest) => contest.sources.map((source) => source.name)))];
+  elements.sourceFilter.innerHTML = '<option value="all">모든 사이트</option>' + sources.map((source) => `<option value="${escapeHtml(source)}">${escapeHtml(source)}</option>`).join("");
+  elements.categoryFilter.value = state.category;
+  elements.sourceFilter.value = state.source;
 }
 
-function toggleBookmark(contest) {
+async function toggleBookmark(contest) {
+  if (Api.user) {
+    try {
+      const current = state.tracker[contest.id];
+      await Api.request(`/api/tracker/${encodeURIComponent(contest.id)}${current ? `?version=${current.version}` : ""}`, {
+        method: current ? "DELETE" : "PUT", ...(current ? {} : { body: { progress: "saved", note: "", checklist: [] } }),
+      });
+      await refreshTracker();
+      await refreshCatalogue();
+      showToast(current ? "찜한 공모전에서 삭제했어요." : "내 도전 보드에 추가했어요.");
+    } catch (error) { showToast(error.message); await refreshTracker(); render(); }
+    return;
+  }
   if (isSaved(contest.id)) {
     delete state.tracker[contest.id];
     showToast("찜한 공모전에서 삭제했어요.");
@@ -380,11 +462,13 @@ function toggleBookmark(contest) {
       note: "",
       checklist: [],
       savedAt: new Date().toISOString(),
+      snapshot: contest,
     };
     showToast("내 도전 보드에 추가했어요.");
   }
   saveTracker();
-  render();
+  state.boardContests = Object.values(state.tracker).filter((entry) => entry.snapshot).map((entry) => normalizeContest(entry.snapshot));
+  await refreshCatalogue();
 }
 
 function escapeIcs(value) {
@@ -393,8 +477,8 @@ function escapeIcs(value) {
 
 function addOneDay(dateString) {
   const date = parseDate(dateString);
-  date.setDate(date.getDate() + 1);
-  return `${date.getFullYear()}${String(date.getMonth() + 1).padStart(2, "0")}${String(date.getDate()).padStart(2, "0")}`;
+  date.setUTCDate(date.getUTCDate() + 1);
+  return `${date.getUTCFullYear()}${String(date.getUTCMonth() + 1).padStart(2, "0")}${String(date.getUTCDate()).padStart(2, "0")}`;
 }
 
 function downloadCalendar(contest) {
@@ -425,9 +509,10 @@ function downloadCalendar(contest) {
   showToast("캘린더 파일을 만들었어요.");
 }
 
-function showTracker(contest) {
-  if (!isSaved(contest.id)) toggleBookmark(contest);
+async function showTracker(contest) {
+  if (!isSaved(contest.id)) await toggleBookmark(contest);
   const tracker = state.tracker[contest.id];
+  if (!tracker) return;
   state.editingId = contest.id;
   elements.trackerContestTitle.textContent = contest.title;
   elements.trackerProgress.value = tracker.progress;
@@ -443,15 +528,14 @@ function closeTracker() {
   state.editingId = null;
 }
 
-function saveTrackerForm(event) {
+async function saveTrackerForm(event) {
   event.preventDefault();
   const tracker = state.tracker[state.editingId];
   if (!tracker) return closeTracker();
-  tracker.progress = elements.trackerProgress.value;
-  tracker.note = elements.trackerNote.value.trim();
-  tracker.checklist = [...elements.trackerForm.querySelectorAll('input[type="checkbox"]:checked')]
+  const next = { ...tracker, progress: elements.trackerProgress.value, note: elements.trackerNote.value.trim() };
+  next.checklist = [...elements.trackerForm.querySelectorAll('input[type="checkbox"]:checked')]
     .map((checkbox) => checkbox.value);
-  saveTracker();
+  if (!await persistEntry(state.editingId, next)) return;
   closeTracker();
   render();
   showToast("도전 기록을 저장했어요.");
@@ -467,7 +551,7 @@ function showToast(message) {
 
 function findContest(element) {
   const card = element.closest("[data-contest-id]");
-  return state.contests.find((contest) => contest.id === card?.dataset.contestId);
+  return [...state.contests, ...state.boardContests].find((contest) => contest.id === card?.dataset.contestId);
 }
 
 function handleContestAction(event) {
@@ -479,10 +563,9 @@ function handleContestAction(event) {
   if (control.dataset.action === "bookmark" && event.type === "click") toggleBookmark(contest);
   if (control.dataset.action === "calendar" && event.type === "click") downloadCalendar(contest);
   if (control.dataset.action === "tracker" && event.type === "click") showTracker(contest);
+  if (control.dataset.action === "history" && event.type === "click") showHistory(contest);
   if (control.dataset.action === "progress" && event.type === "change") {
-    state.tracker[contest.id].progress = control.value;
-    saveTracker();
-    render();
+    persistEntry(contest.id, { ...state.tracker[contest.id], progress: control.value });
   }
 }
 
@@ -493,18 +576,22 @@ function resetFilters() {
   state.category = "all";
   state.eligibility = "all";
   state.deadlineRange = "all";
+  state.source = "all";
+  state.status = "active";
   state.currentPage = 1;
   elements.search.value = "";
   elements.sort.value = "deadline";
   elements.categoryFilter.value = "all";
   elements.eligibilityFilter.value = "all";
   elements.deadlineFilter.value = "all";
+  elements.sourceFilter.value = "all";
+  elements.statusFilter.value = "active";
   elements.filterButtons.forEach((button) => {
     const isActive = button.dataset.mode === "all";
     button.classList.toggle("active", isActive);
     button.setAttribute("aria-pressed", String(isActive));
   });
-  render();
+  refreshCatalogue();
 }
 
 function showError() {
@@ -519,10 +606,21 @@ function showError() {
 
 async function loadContests() {
   try {
+    await Api.initialize();
+    state.apiMode = Api.enabled;
+    if (state.apiMode) {
+      state.facets = await Api.request("/api/facets");
+      populateCategoryFilter();
+      await refreshTracker();
+      await refreshCatalogue();
+      return;
+    }
     const response = await fetch("data/contests.json");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     state.contests = Array.isArray(data) ? data.map(normalizeContest) : [];
+    state.boardContests = Object.values(state.tracker).filter((entry) => entry.snapshot).map((entry) => normalizeContest(entry.snapshot));
+    migrateTrackerAliases();
     populateCategoryFilter();
     updateStats();
     render();
@@ -533,38 +631,180 @@ async function loadContests() {
   }
 }
 
+async function loadCollectionStatus() {
+  try {
+    const response = await fetch(state.apiMode ? "/api/collection-status" : "data/collection-status.json");
+    if (!response.ok) return;
+    const metadata = await response.json();
+    const activeSources = Object.values(metadata.sources || {}).filter((source) => source.count > 0);
+    const updateDate = new Date(metadata.updated_at);
+    if (!Number.isNaN(updateDate.getTime())) {
+      elements.todayLabel.textContent = `${new Intl.DateTimeFormat("ko-KR", {
+        timeZone: "Asia/Seoul", month: "long", day: "numeric", hour: "2-digit", minute: "2-digit",
+      }).format(updateDate)} 수집`;
+    }
+    elements.sourceUpdateLabel.textContent = `${activeSources.length}개 사이트의 공모전`;
+  } catch {
+    // Contest data remains usable when optional collection metadata is unavailable.
+  }
+}
+
+function usesServerPage() {
+  return state.apiMode && !(state.mode === "saved" && !Api.user);
+}
+
+let catalogueRequest = 0;
+let catalogueAbort;
+async function refreshCatalogue() {
+  const request = ++catalogueRequest;
+  catalogueAbort?.abort();
+  if (!usesServerPage()) { render(); return; }
+  catalogueAbort = new AbortController();
+  elements.list.setAttribute("aria-busy", "true");
+  const params = new URLSearchParams({ q: state.keyword, source: state.source, category: state.category,
+    eligibility: state.eligibility, status: state.status, mode: state.mode, sort: state.sort,
+    page: state.currentPage, page_size: PAGE_SIZE });
+  if (state.deadlineRange !== "all") params.set("days", state.deadlineRange);
+  try {
+    const result = await Api.request(`/api/contests?${params}`, { signal: catalogueAbort.signal });
+    if (request !== catalogueRequest) return;
+    state.serverPage = result;
+    state.currentPage = result.page;
+    state.contests = result.items.map(normalizeContest);
+    updateStats();
+    render();
+  } catch (error) {
+    if (error.name === "AbortError" || request !== catalogueRequest) return;
+    elements.list.setAttribute("aria-busy", "false");
+    showToast(error.message);
+  }
+}
+
+async function refreshTracker() {
+  if (Api.user) {
+    const result = await Api.request("/api/tracker");
+    state.tracker = {};
+    state.boardContests = result.entries.map((entry) => {
+      state.tracker[entry.contest.id] = { progress: entry.progress, note: entry.note, checklist: entry.checklist,
+        version: entry.version, savedAt: entry.savedAt };
+      return normalizeContest(entry.contest);
+    });
+  } else {
+    state.tracker = loadTracker();
+    const snapshots = Object.values(state.tracker).filter((entry) => entry.snapshot).map((entry) => normalizeContest(entry.snapshot));
+    const records = new Map(snapshots.map((contest) => [contest.id, contest]));
+    const ids = Object.keys(state.tracker);
+    for (let offset = 0; offset < ids.length; offset += 200) {
+      const result = await Api.request("/api/contests/lookup", { method: "POST", body: { ids: ids.slice(offset, offset + 200) } });
+      result.items.forEach((contest) => records.set(contest.id, normalizeContest(contest)));
+    }
+    state.boardContests = [...records.values()];
+    migrateTrackerAliases();
+    saveTracker();
+  }
+  document.getElementById("importGuest").hidden = !Api.user || !Object.keys(loadTracker()).length;
+}
+
+async function persistEntry(id, next) {
+  try {
+    if (Api.user) {
+      await Api.request(`/api/tracker/${encodeURIComponent(id)}`, { method: "PUT", body: {
+        progress: next.progress, note: next.note, checklist: next.checklist, version: next.version,
+      } });
+      await refreshTracker();
+    } else {
+      state.tracker[id] = next;
+      saveTracker();
+    }
+    await refreshCatalogue();
+    return true;
+  } catch (error) {
+    showToast(error.message);
+    if (Api.user) { await refreshTracker(); render(); }
+    return false;
+  }
+}
+
+async function showHistory(contest) {
+  try {
+    const result = await Api.request(`/api/contests/${encodeURIComponent(contest.id)}/history`);
+    const fields = { title: "제목", organization: "주최기관", start_date: "접수 시작", deadline: "마감일", category: "분야", eligibility: "응모 대상", award: "시상", sources: "출처", category_group: "분류", award_detail: "시상 상세", apply_method: "접수 방법" };
+    const valueText = (value) => Array.isArray(value) ? value.map((source) => source.name).join(", ") : String(value ?? "미정");
+    document.getElementById("historyList").innerHTML = `<p class="dialog-contest-title">${escapeHtml(result.title)}</p>` + result.items.map((item) => `
+      <article class="history-item"><strong>${item.kind === "created" ? "처음 확인한 공고" : item.kind === "source_updated" ? "출처 정보 변경" : "공고 정보 변경"}</strong>
+      <time>${escapeHtml(new Date(item.detected_at).toLocaleString("ko-KR", { timeZone: "Asia/Seoul" }))}</time>
+      ${Object.entries(item.changes).map(([field, change]) => `<p>${escapeHtml(fields[field] || field)}: ${escapeHtml(valueText(change.before))} → ${escapeHtml(valueText(change.after))}</p>`).join("")}</article>`).join("");
+    document.getElementById("historyDialog").showModal();
+  } catch (error) { showToast(error.message); }
+}
+
+document.getElementById("closeHistory").addEventListener("click", () => document.getElementById("historyDialog").close());
+document.addEventListener("contestly:session", async () => {
+  state.currentPage = 1;
+  try { await refreshTracker(); await refreshCatalogue(); } catch (error) { showToast(error.message); }
+});
+document.getElementById("importGuest").addEventListener("click", async () => {
+  const button = document.getElementById("importGuest");
+  button.disabled = true;
+  try {
+    const entries = Object.entries(loadTracker()).map(([id, entry]) => ({ contest_id: id, progress: entry.progress,
+      note: entry.note, checklist: entry.checklist }));
+    for (let offset = 0; offset < entries.length; offset += 200) {
+      await Api.request("/api/tracker/import", { method: "POST", body: { entries: entries.slice(offset, offset + 200) } });
+    }
+    await refreshTracker(); await refreshCatalogue(); showToast("이 기기의 기록을 계정으로 가져왔어요.");
+  } catch (error) { showToast(error.message); } finally { button.disabled = false; }
+});
+
+let searchTimer;
 elements.search.addEventListener("input", (event) => {
   state.keyword = event.target.value;
   state.currentPage = 1;
-  render();
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(refreshCatalogue, state.apiMode ? 200 : 0);
 });
 
 elements.sort.addEventListener("change", (event) => {
   state.sort = event.target.value;
   state.currentPage = 1;
-  render();
+  refreshCatalogue();
 });
 
 elements.categoryFilter.addEventListener("change", (event) => {
   state.category = event.target.value;
   state.currentPage = 1;
-  render();
+  refreshCatalogue();
 });
 
 elements.eligibilityFilter.addEventListener("change", (event) => {
   state.eligibility = event.target.value;
   state.currentPage = 1;
-  render();
+  refreshCatalogue();
 });
 
 elements.deadlineFilter.addEventListener("change", (event) => {
   state.deadlineRange = event.target.value;
   state.currentPage = 1;
-  render();
+  refreshCatalogue();
+});
+
+elements.sourceFilter.addEventListener("change", (event) => {
+  state.source = event.target.value;
+  state.currentPage = 1;
+  refreshCatalogue();
+});
+
+elements.statusFilter.addEventListener("change", (event) => {
+  state.status = event.target.value;
+  state.currentPage = 1;
+  refreshCatalogue();
 });
 
 elements.filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
+    if (button.dataset.mode === "saved") state.status = "all";
+    else if (state.mode === "saved") state.status = "active";
+    elements.statusFilter.value = state.status;
     state.mode = button.dataset.mode;
     state.currentPage = 1;
     elements.filterButtons.forEach((item) => {
@@ -572,7 +812,7 @@ elements.filterButtons.forEach((button) => {
       item.classList.toggle("active", isActive);
       item.setAttribute("aria-pressed", String(isActive));
     });
-    render();
+    refreshCatalogue();
   });
 });
 
@@ -608,4 +848,4 @@ elements.todayLabel.textContent = `${new Intl.DateTimeFormat("ko-KR", {
 }).format(new Date())} 기준`;
 
 renderBoard();
-loadContests();
+loadContests().then(loadCollectionStatus);

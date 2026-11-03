@@ -4,13 +4,23 @@ on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
+    inputs:
+      max_pages:
+        description: '위비티·콘테스트코리아 목록별 수집 페이지 수 (1~100)'
+        required: false
+        default: '5'
 
 permissions:
   contents: write
 
+concurrency:
+  group: contest-data-update
+  cancel-in-progress: false
+
 jobs:
   update-contests:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: 저장소 가져오기
@@ -24,15 +34,20 @@ jobs:
       - name: 라이브러리 설치
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install -r requirements.txt
+
+      - name: 수집기 검증
+        run: python -B -m unittest discover -s tests -v
 
       - name: 스크래퍼 실행
-        run: python scripts/scrape.py
+        env:
+          MAX_PAGES: ${{ inputs.max_pages || '5' }}
+        run: python -u scripts/scrape.py --max-pages "$MAX_PAGES"
 
       - name: 변경사항 커밋 및 푸시
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contests.json
+          git add data/contests.json data/collection-status.json data/sources/
           git diff --cached --quiet || git commit -m "daily update contests data"
           git push
