@@ -64,7 +64,7 @@ py -3 -B scripts/verify_recovery.py
 
 브라우저 검증에는 Chrome/Chromium이 필요하며 `CHROME_BIN`으로 경로를 지정할 수 있습니다. 별도 임시 DB·프로필을 사용합니다. 복원 검증은 현재 SQLite DB를 읽어 **새 DB**로 복원하며 원본을 변경하지 않습니다. 결과는 `runtime/` 아래에 생성됩니다.
 
-2026-11-03 로컬 결과: 자동 테스트 **32개 통과 / PostgreSQL 1개 건너뜀**, 브라우저 시나리오 **9개 통과**, 공모전 **509개**의 SQLite 백업·복원 검증 성공. 자세한 범위와 한계는 [검증 기록](docs/verification.md)에 있습니다. Docker 빌드와 PostgreSQL 테스트는 CI에 구성했지만 이 환경에서는 실행하지 못했습니다.
+2026-11-03 결과: 로컬 자동 테스트 **35개 통과 / PostgreSQL 1개 건너뜀**, GitHub Actions에서는 PostgreSQL 테스트를 포함해 **36개 모두 통과**, 브라우저 시나리오 **9개 통과**했습니다. CI에서 Docker 이미지 빌드, 공모전 **509개**의 PostgreSQL 백업·복원, 계정·메모 보존과 세션 폐기, 복원 DB에 연결한 컨테이너 기동까지 확인했습니다. SQLite 복원도 검증했습니다. [검증 기록](docs/verification.md)에 실행 링크와 측정값이 있습니다. 공개 서버 배포는 아직 하지 않았습니다.
 
 ## 설계·운영·포트폴리오 문서
 
@@ -72,5 +72,6 @@ py -3 -B scripts/verify_recovery.py
 - [배포·운영·장애 대응·백업과 복원](docs/operations.md)
 - [포트폴리오 설명과 면접 시연 순서](docs/portfolio.md)
 - [실제 검증 결과와 미검증 항목](docs/verification.md)
+- [마감일 충돌 원문 검토 기록](docs/data-quality-review.md)
 
 비회원 기록은 해당 브라우저의 `localStorage`, 로그인 기록은 서버 DB에 저장합니다. 기존 비회원 기록은 사용자 선택 시에만 계정으로 가져옵니다. 정적 미리보기(`py -3 -m http.server 8000`)도 유지하지만 계정·관리자·서버 이력 기능은 API 서버에서만 제공됩니다.

@@ -1,4 +1,4 @@
-# 로컬 검증 기록
+# 검증 기록 (로컬·GitHub Actions)
 
 검증일: **2026-11-03 (KST)**. Windows, Python 3.14, 설치된 Chrome의 headless 모드에서 수행했습니다. 테스트 계정·브라우저 프로필은 임시 경로를 사용했고 종료 후 정리했습니다. 실제 사용자 DB에는 검증용 계정을 만들지 않았습니다.
 
@@ -55,12 +55,38 @@ py -3 -X utf8 -B -m unittest discover -s tests -v
 
 보고서 경로는 `runtime/recovery-qa/run-*/report.json`입니다. 백업 SHA-256은 `282d76dc2cfd650a1c1d5ad849790ffb37b34ab4575bb8f114a40169eedb2784`였습니다. 새 실행은 생성 시각·데이터 상태에 따라 다른 결과를 만들 수 있습니다.
 
-## 검증하지 않은 범위
+## 추가 GitHub Actions 검증 — 2026-11-03
 
-- Docker 이미지 빌드·Compose 실제 기동: 로컬에 Docker 미설치
-- PostgreSQL 실제 백업·복원: 로컬 DB·pg_dump·pg_restore 미설치
-- GitHub Actions의 원격 성공 실행: 워크플로 구성까지 완료, 아직 푸시·실행 결과 없음
-- 공개 서버 배포·실제 TLS·외부 접속: 서버와 도메인 미지정
+검증 브랜치는 `codex/operations-backend`입니다. `main`과 공개 사이트는 변경하지 않았습니다.
+
+- 최초 CI에서 PostgreSQL 서비스의 헬스 체크 명령이 작은따옴표 때문에 잘못 분리되는 오류를 발견했습니다. 큰따옴표로 수정한 뒤 [기본 CI 전체 성공](https://github.com/doddak-147/contest-project/actions/runs/41578617758)을 확인했습니다.
+- 이후 복원 실증을 추가한 커밋 `dcb823851dc72c68fa5089d1a906d76953df6e34`의 [확장 CI도 전체 성공](https://github.com/doddak-147/contest-project/actions/runs/41579385107)했습니다.
+- 확장 CI는 **자동 테스트 36개 모두 통과**, 브라우저 시나리오 9개, SQLite 복원, Docker 이미지 빌드, PostgreSQL 복원과 복원 후 앱 기동을 실행했습니다. 로컬에서는 추가 안전장치 테스트를 포함해 35개 통과·PostgreSQL 1개 건너뜀입니다.
+
+### PostgreSQL 17 복원 실증
+
+애플리케이션 이미지 안의 `pg_dump`·`pg_restore`를 사용해 별도의 빈 테스트 DB로 복원했습니다. 자동 실증은 `TEST_DATABASE_URL`과 `TEST_RESTORE_DATABASE_URL`을 명시해야 하며, 동일 DB와 기존 테이블·뷰가 있는 DB를 거절합니다. 원본에는 검증용 계정·도전 기록·세션을 넣어 보존과 폐기를 실제로 비교했습니다.
+
+| 항목 | CI 측정 결과 |
+| --- | --- |
+| 완료 시각 | 2026-11-03 13:40:15 KST |
+| 공모전 / 출처 원본 / 별칭 | 509 / 574 / 574건 |
+| 검증용 계정 / 도전 기록 | 각 1건, 해시·진행 단계·메모·체크리스트·버전 보존 |
+| 원본 / 복원 DB 로그인 세션 | 1 / 0개 |
+| 백업 파일 크기 | 194,345 bytes |
+| 백업 / 복원 소요 시간 | 0.1942초 / 0.1944초 |
+| 체크섬·테이블별 건수 | 검증 통과 |
+| 복원 DB 앱 기동 | 이미지 기본 진입점으로 기동, 헬스 체크·공모전 API 509건 확인 |
+
+백업 SHA-256은 `f20c6806212a12f73a712df4d8e165ce4795437c73f16c5ea5cd8ef129af804c`입니다. 보고서는 CI 산출물 `postgres-recovery-evidence`, 화면·SQLite 보고서는 `verification-evidence`에 남겼습니다. 소요 시간은 CI의 작은 테스트 데이터에 대한 1회 측정이며 운영 복구 시간 보장이 아닙니다.
+
+마감일 충돌 1건은 [주최 기관 원문과 비교한 결과](data-quality-review.md)를 별도로 기록했습니다. 이 검토가 운영 데이터 정정 완료를 의미하지는 않습니다.
+
+## 아직 검증하지 않은 범위
+
+- 실제 배포 서버에서 Caddy·수집·백업을 포함한 Compose 전체 구성 기동
+- 기존 네이버 클라우드 서비스와 함께 운영할 때의 자원·포트·프록시·볼륨 격리
+- 공개 서버 HTTPS·외부 접속·운영 DB 복구와 배포 전환
 - 부하 시험, 호스트 장애 복구, 외부 백업 복제, 종합 보안·접근성 진단
 
 실행하지 않은 항목은 완료 실적으로 표현하지 않습니다. 다음 실증 절차는 [운영 가이드](operations.md)에 정리했습니다.

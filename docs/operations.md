@@ -15,7 +15,7 @@ py -3 -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
 
 ## Docker Compose 배포 준비
 
-필요 조건은 Docker Compose, 서비스 도메인의 서버 IP 연결, 외부 80/443 포트입니다. 현재 작업 환경에는 Docker가 없어 이 구성의 실제 빌드·기동은 아직 검증하지 못했습니다. 아래 절차는 배포할 서버에서 확인해야 합니다.
+필요 조건은 Docker Compose, 서비스 도메인의 서버 IP 연결, 외부 80/443 포트입니다. CI에서 이미지 빌드·PostgreSQL 복원·복원 DB에 연결한 앱 컨테이너 기동은 검증했습니다. Caddy·수집·백업을 포함한 Compose 전체 기동은 배포 서버에서 추가 확인해야 합니다. 아래 기본 절차는 80/443 포트를 이 서비스가 사용할 수 있는 서버 기준입니다.
 
 1. `.env.example`을 `.env`로 복사하고 `DOMAIN`을 실제 도메인으로 설정합니다.
 2. `POSTGRES_PASSWORD`에 생성한 임의의 16진수 비밀번호를 설정합니다. `python -c "import secrets; print(secrets.token_hex(32))"`로 생성할 수 있습니다.
@@ -24,6 +24,24 @@ py -3 -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
 5. `docker compose exec app python -m backend.manage create-admin --username operator`로 관리자를 생성합니다.
 
 Compose는 `.env`의 개발용 `DATABASE_URL`·`APP_ENV` 대신 서비스에 명시한 PostgreSQL·운영 설정을 사용합니다. Caddy가 HTTPS를 제공하고 앱 포트는 호스트 루프백에만 연결합니다. DB 포트는 외부에 공개하지 않습니다. 앱 시작 시 마이그레이션과 스냅샷 반영 후 서버를 실행합니다.
+
+### 기존 서비스와 같은 서버를 사용하는 경우
+
+네이버 클라우드의 기존 서버도 활용할 수 있지만 OS·자원·현재 서비스 구성을 먼저 확인합니다. **기존 웹서버가 80/443 또는 8000을 사용 중인 상태에서 위의 전체 실행 명령을 바로 실행하지 않습니다.** 기존 Nginx/Caddy가 있으면 해당 프록시를 유지하고 새 서비스용 도메인과 내부 포트를 별도로 연결하는 구성을 먼저 정합니다.
+
+Linux 서버에서는 다음과 같이 읽기 전용으로 상태를 확인할 수 있습니다. Docker가 없거나 권한이 부족하면 해당 명령은 오류만 확인하고 설치·권한 변경을 자동으로 진행하지 않습니다.
+
+```sh
+cat /etc/os-release
+free -h
+df -h /
+ss -lnt
+docker --version
+docker compose version
+docker ps --format 'table {{.Names}}\t{{.Ports}}\t{{.Status}}'
+```
+
+확인 후 이 프로젝트의 Compose 프로젝트명·컨테이너·볼륨을 기존 서비스와 분리하고, 여유 있는 내부 포트와 기존 프록시 연결을 결정합니다. 기존 서비스 중단·프록시 설정 교체·포트 개방·인프라 증설은 서버 정보를 검토하고 변경 범위를 확인한 뒤 진행합니다. 네이버 클라우드의 접속 방식과 ACG는 [공식 서버 접속 안내](https://guide.ncloud-docs.com/docs/server-access-classic)도 참고하되, 실제 VPC/Classic 환경에 맞춰 확인해야 합니다.
 
 | 서비스 | 역할·영속 데이터 |
 | --- | --- |
@@ -96,4 +114,4 @@ PY
 
 ## 자동 검증
 
-`Application checks`는 단위·API 테스트, 별도 PostgreSQL 17 DB 통합 테스트, Chrome 화면 시나리오, SQLite 복원 실증, Docker 이미지 빌드를 구성했습니다. 브라우저 증거와 복원 보고서를 CI 산출물로 남깁니다. 구성 자체와 GitHub에서의 성공 실행은 별개이므로 첫 실행 결과를 확인해야 합니다.
+`Application checks`는 단위·API 테스트, 별도 PostgreSQL 17 DB 통합 테스트, Chrome 화면 시나리오, SQLite 복원 실증, Docker 이미지 빌드, PostgreSQL 복원 후 앱 기동을 실행합니다. 브라우저 증거와 복원 보고서를 CI 산출물로 남깁니다. [2026-11-03 성공 실행](https://github.com/doddak-147/contest-project/actions/runs/41579385107)과 측정값은 [검증 기록](verification.md)에 있습니다. CI의 테스트 DB 실증과 실제 운영 서버 배포는 구분합니다.
