@@ -49,6 +49,65 @@ jobs:
   container:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: contestly
+          POSTGRES_PASSWORD: ci-only-password
+          POSTGRES_DB: contestly_ci
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U contestly -d contestly_ci"
+          --health-interval 10s --health-timeout 5s --health-retries 10
     steps:
       - uses: actions/checkout@v4
       - run: docker build -t contestly:check .
+      - name: PostgreSQL backup and recovery drill
+        shell: bash
+        env:
+          TEST_DATABASE_URL: postgresql+psycopg://contestly:ci-only-password@127.0.0.1:5432/contestly_ci
+          TEST_RESTORE_DATABASE_URL: postgresql+psycopg://contestly:ci-only-password@127.0.0.1:5432/contestly_ci_recovery
+        run: |
+          docker exec ${{ job.services.postgres.id }} createdb -U contestly contestly_ci_recovery
+          mkdir -p runtime/postgres-qa
+          docker run --rm --network host --env TEST_DATABASE_URL --env TEST_RESTORE_DATABASE_URL \
+            --entrypoint python contestly:check scripts/verify_postgres_recovery.py \
+            | tee runtime/postgres-qa/report.json
+      - name: Verify container startup against restored database
+        env:
+          DATABASE_URL: postgresql+psycopg://contestly:ci-only-password@127.0.0.1:5432/contestly_ci_recovery
+        run: |
+          docker run --detach --name contestly-app --network host --env DATABASE_URL \
+            --env APP_ENV=development contestly:check
+          python3 - <<'PY'
+          import json
+          import time
+          import urllib.request
+          for attempt in range(60):
+              try:
+                  with urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=2) as response:
+                      health = json.load(response)
+                  assert health['database'] == 'ok'
+                  break
+              except Exception:
+                  time.sleep(1)
+          else:
+              raise SystemExit('Restored application failed to start')
+          with urllib.request.urlopen('http://127.0.0.1:8000/api/contests?status=all&page_size=1') as response:
+              catalogue = json.load(response)
+          assert catalogue['total'] > 0 and len(catalogue['items']) == 1
+          print('Restored container health and catalogue API verified:', catalogue['total'])
+          PY
+      - name: Collect container evidence
+        if: always()
+        run: |
+          mkdir -p runtime/postgres-qa
+          docker logs contestly-app > runtime/postgres-qa/application.log 2>&1 || true
+          docker stop contestly-app || true
+      - name: Upload PostgreSQL evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: postgres-recovery-evidence
+          path: runtime/postgres-qa/

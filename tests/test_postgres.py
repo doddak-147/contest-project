@@ -3,11 +3,36 @@ import unittest
 from uuid import uuid4
 
 from fastapi.testclient import TestClient
+from sqlalchemy import inspect, text
 
 from backend.config import Settings
+from backend.database import make_engine
 from backend.main import create_app
 from backend.ingestion import ingest_snapshot
+from scripts.verify_postgres_recovery import require_empty_database, test_urls
 from test_application import sample
+
+
+class RecoverySafetyTests(unittest.TestCase):
+    def test_recovery_drill_rejects_the_same_database(self):
+        with self.assertRaises(ValueError):
+            test_urls({'TEST_DATABASE_URL': 'postgresql+psycopg://user@localhost/example',
+                       'TEST_RESTORE_DATABASE_URL': 'postgresql+psycopg://user@localhost:5432/example'})
+
+    def test_recovery_drill_rejects_non_postgres_databases(self):
+        with self.assertRaises(ValueError):
+            test_urls({'TEST_DATABASE_URL': 'sqlite:///source.db',
+                       'TEST_RESTORE_DATABASE_URL': 'sqlite:///target.db'})
+
+    def test_recovery_drill_rejects_existing_tables_without_modifying_them(self):
+        engine = make_engine('sqlite:///:memory:')
+        self.addCleanup(engine.dispose)
+        require_empty_database(engine)
+        with engine.begin() as connection:
+            connection.execute(text('CREATE TABLE preserved (id INTEGER PRIMARY KEY)'))
+        with self.assertRaises(ValueError):
+            require_empty_database(engine)
+        self.assertIn('preserved', inspect(engine).get_table_names())
 
 
 @unittest.skipUnless(os.getenv("TEST_DATABASE_URL"), "별도 PostgreSQL 테스트 DB가 지정되지 않았습니다.")
