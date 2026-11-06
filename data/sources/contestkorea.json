@@ -379,7 +379,7 @@
     "award": "상금(총상금 : 3,000만원 / 1위 : 1,000만원)",
     "award_detail": "",
     "apply_method": "온라인접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202610260051",
     "source": "콘테스트코리아"
   },
@@ -395,7 +395,7 @@
     "award": "상품(온누리상품권 )",
     "award_detail": "",
     "apply_method": "이메일접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202610260053",
     "source": "콘테스트코리아"
   },
@@ -635,7 +635,7 @@
     "award": "상금+상품(총상금 : 80만원 / 1위 : 50만원 / 부상 )",
     "award_detail": "",
     "apply_method": "이메일접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610280056",
     "source": "콘테스트코리아"
   },
@@ -1008,6 +1008,22 @@
     "source": "콘테스트코리아"
   },
   {
+    "id": "contestkorea-202610300011",
+    "title": "국가무형유산 상설공연 창작 콘텐츠 개발을 위한 대국민 아이디어 발굴대회",
+    "organization": "국가유산청",
+    "start_date": "2026-11-09",
+    "deadline": "2026-11-18",
+    "category": "아이디어•건축•창업",
+    "category_group": "IT",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "상금+상품(총상금 : 200만원 / 1위 : 100만원 / 상장 )",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 예정",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202610300011",
+    "source": "콘테스트코리아"
+  },
+  {
     "id": "contestkorea-202610300012",
     "title": "[무료 참가] 선도기업·투자자·전문가와 만나는 1:1 비즈니스 미팅｜2026 KOREA LBS Day",
     "organization": "방송미디어통신위원회/한국인터넷진흥원",
@@ -1040,6 +1056,22 @@
     "source": "콘테스트코리아"
   },
   {
+    "id": "contestkorea-202610300020",
+    "title": "2026 칠곡군청맛길 숏폼 공모전",
+    "organization": "칠곡군청맛길 /칠곡인문학협동조합",
+    "start_date": "2026-10-01",
+    "deadline": "2026-11-06",
+    "category": "사진•영상•영화제",
+    "category_group": "ETC",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "상금+상품(총상금 : 150만원 / 1위 : 50만원 / 굿즈 )",
+    "award_detail": "",
+    "apply_method": "",
+    "status": "마감 임박",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610300020",
+    "source": "콘테스트코리아"
+  },
+  {
     "id": "contestkorea-202610300023",
     "title": "강남구중독관리통합지원센터 캐릭터 공모전",
     "organization": "강남구중독관리통합지원센터",
@@ -1053,6 +1085,38 @@
     "apply_method": "이메일접수",
     "status": "접수 중",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202610300023",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202610300025",
+    "title": "제1회 청년정책 숏폼 공모전",
+    "organization": "순천시",
+    "start_date": "2026-10-28",
+    "deadline": "2026-11-18",
+    "category": "사진•영상•영화제",
+    "category_group": "ETC",
+    "eligibility": "일반인 , 해당자 ▶ ( 순천시 청년 )",
+    "award": "상금(총상금 : 560만원 / 1위 : 60만원)",
+    "award_detail": "",
+    "apply_method": "이메일접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610300025",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202610300027",
+    "title": "2026년 굿에어스쿨 공모전",
+    "organization": "한국교육환경보호원, 세계맑은공기기후연맹",
+    "start_date": "2026-10-29",
+    "deadline": "2026-11-20",
+    "category": "아이디어•건축•창업",
+    "category_group": "ETC",
+    "eligibility": "일반인 , 해당자 ▶ ( 학교 )",
+    "award": "상금+상품(총상금 : 500만원 / 1위 : 300만원 / 상장, 현판 수여 )",
+    "award_detail": "",
+    "apply_method": "이메일접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202610300027",
     "source": "콘테스트코리아"
   },
   {
@@ -1227,8 +1291,24 @@
     "award": "상금(총상금 : 700만원 / 1위 : 500만원)",
     "award_detail": "",
     "apply_method": "이메일접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030910001&str_no=202611020031",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611020032",
+    "title": "2026 제4회 전남광주 북구청장배 전국 아마추어 e스포츠 대회",
+    "organization": "전남광주통합특별시북구",
+    "start_date": "2026-10-19",
+    "deadline": "2026-12-27",
+    "category": "학문•과학•IT",
+    "category_group": "IT",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "상금(총상금 : 1,000만원 / 1위 : 200만원)",
+    "award_detail": "",
+    "apply_method": "",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202611020032",
     "source": "콘테스트코리아"
   },
   {
@@ -1245,6 +1325,22 @@
     "apply_method": "온라인접수",
     "status": "접수 중",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202611020040",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611020041",
+    "title": "2026년 인권존중사례 수기 공모전",
+    "organization": "청주도시공사",
+    "start_date": "2026-11-02",
+    "deadline": "2026-11-23",
+    "category": "문학•문예",
+    "category_group": "ETC",
+    "eligibility": "일반인 , 해당자 ▶ ( 공사 시설 이용객 )",
+    "award": "상품(청주페이 )",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611020041",
     "source": "콘테스트코리아"
   },
   {
@@ -1277,6 +1373,22 @@
     "apply_method": "이메일접수",
     "status": "접수 중",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611030010",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611030024",
+    "title": "에이블리 에블프 퀸 선발대회",
+    "organization": "에이블리",
+    "start_date": "2026-10-28",
+    "deadline": "2026-11-24",
+    "category": "요리•뷰티•배우•오디션",
+    "category_group": "ETC",
+    "eligibility": "고등학생 , 대학생 , 대학원생 , 해당자 ▶ ( 만 14세 이상 )",
+    "award": "상금(총상금 : 700만원 / 1위 : 300만원)",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031610001&str_no=202611030024",
     "source": "콘테스트코리아"
   },
   {
@@ -1440,6 +1552,22 @@
     "source": "콘테스트코리아"
   },
   {
+    "id": "contestkorea-202611040030",
+    "title": "15만원 앰플 공짜로 써보는 '케이스키니' 사용챌린지 영상 공모전",
+    "organization": "KSKINNY",
+    "start_date": "2026-10-27",
+    "deadline": "2026-11-17",
+    "category": "사진•영상•영화제",
+    "category_group": "ETC",
+    "eligibility": "대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "상금(총상금 : 70만원 / 1위 : 50만원)",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611040030",
+    "source": "콘테스트코리아"
+  },
+  {
     "id": "contestkorea-202611040033",
     "title": "어린이 미래 상상 그림 공모전",
     "organization": "과학기술정보통신부/정보통신기획평가원, 차세대모바일연구조합",
@@ -1485,6 +1613,70 @@
     "apply_method": "이메일접수",
     "status": "접수 중",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611040056",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611050005",
+    "title": "Tree Eco 파충류 캐릭터 디자인 공모전",
+    "organization": "트리에코/문도에이아이",
+    "start_date": "2026-11-06",
+    "deadline": "2026-11-19",
+    "category": "미술•디자인•웹툰",
+    "category_group": "IT",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "상금(총상금 : 100만원 / 1위 : 100만원)",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202611050005",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611050024",
+    "title": "2026 제17회 국제 청소년 평화 휴머니즘 영상 공모제",
+    "organization": "사단법인 미래사회와종교성연구원/2026제17회국제청소년평화휴머니즘영상공모제 조직위원회",
+    "start_date": "2026-11-05",
+    "deadline": "2026-11-30",
+    "category": "사진•영상•영화제",
+    "category_group": "ETC",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "기타 :각 분야별 대상, 최우수상, 우수상 + 부상 시상 / 문화체육관광부장관상, 한국청소년단체협의회장상, 서울예술대학교총장상 외",
+    "award_detail": "",
+    "apply_method": "이메일접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611050024",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611050026",
+    "title": "(재)양산문화재단 CI 재공모",
+    "organization": "(재)양산문화재단/(재)양산문화재단",
+    "start_date": "2026-11-02",
+    "deadline": "2026-11-20",
+    "category": "미술•디자인•웹툰",
+    "category_group": "IT",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "상금(총상금 : 400만원 / 1위 : 400만원)",
+    "award_detail": "",
+    "apply_method": "이메일접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202611050026",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611050042",
+    "title": "2026년 제11회 히말라야 문예대전 작품 공모 기간 연장",
+    "organization": "NGO 사단법인 나마스떼코리아/NGO 사단법인 나마스떼코리아",
+    "start_date": "2026-08-01",
+    "deadline": "2026-11-22",
+    "category": "사진•영상•영화제",
+    "category_group": "ETC",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "상금(총상금 : 690만원 / 1위 : 200만원)",
+    "award_detail": "",
+    "apply_method": "이메일접수, 우편접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611050042",
     "source": "콘테스트코리아"
   }
 ]
