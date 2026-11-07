@@ -64,22 +64,6 @@
     "source": "콘테스트코리아"
   },
   {
-    "id": "contestkorea-202610220014",
-    "title": "「초량천~산복도로」 스토리텔링 공모전",
-    "organization": "부산광역시",
-    "start_date": "2026-10-26",
-    "deadline": "2026-11-06",
-    "category": "문학•문예",
-    "category_group": "ETC",
-    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
-    "award": "상금+상품(총상금 : 500만원 / 1위 : 300만원 / 상장 )",
-    "award_detail": "",
-    "apply_method": "이메일접수",
-    "status": "마감 임박",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202610220014",
-    "source": "콘테스트코리아"
-  },
-  {
     "id": "contestkorea-202610220015",
     "title": "2027 제주 국제무용콩쿠르 지역 예선전",
     "organization": "제주국제무용제 조직위원회, K-글로벌발레원",
@@ -317,22 +301,6 @@
     "apply_method": "온라인접수",
     "status": "접수 중",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202610260008",
-    "source": "콘테스트코리아"
-  },
-  {
-    "id": "contestkorea-202610260012",
-    "title": "2026년도 사회적가치형 청년 일경험 지원사업 우수사례 수기 공모전",
-    "organization": "한국사회적기업진흥원",
-    "start_date": "2026-10-13",
-    "deadline": "2026-11-06",
-    "category": "문학•문예",
-    "category_group": "ETC",
-    "eligibility": "일반인 , 해당자 ▶ ( 사회적가치형 청년 일경험 지원사업에 참여중이거나 참여를 완료한 청년 및 참여기업 )",
-    "award": "상금+상품(총상금 : 200만원 / 1위 : 50만원 / 상장 )",
-    "award_detail": "",
-    "apply_method": "이메일접수",
-    "status": "마감 임박",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202610260012",
     "source": "콘테스트코리아"
   },
   {
@@ -832,22 +800,6 @@
     "source": "콘테스트코리아"
   },
   {
-    "id": "contestkorea-202610290022",
-    "title": "2026년 한국전력기술 미래사업 과제 발굴을 위한 혁신 아이디어 공모전",
-    "organization": "한국전력기술(주)",
-    "start_date": "2026-10-26",
-    "deadline": "2026-11-06",
-    "category": "아이디어•건축•창업",
-    "category_group": "ETC",
-    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
-    "award": "상금+상품(총상금 : 320만원 / 1위 : 100만원 / 상장 )",
-    "award_detail": "",
-    "apply_method": "이메일접수",
-    "status": "마감 임박",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202610290022",
-    "source": "콘테스트코리아"
-  },
-  {
     "id": "contestkorea-202610290024",
     "title": "2026년 완도군 지방소멸 대응 아이디어 공모전",
     "organization": "완도군",
@@ -1053,22 +1005,6 @@
     "apply_method": "이메일접수",
     "status": "접수 중",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031610001&str_no=202610300016",
-    "source": "콘테스트코리아"
-  },
-  {
-    "id": "contestkorea-202610300020",
-    "title": "2026 칠곡군청맛길 숏폼 공모전",
-    "organization": "칠곡군청맛길 /칠곡인문학협동조합",
-    "start_date": "2026-10-01",
-    "deadline": "2026-11-06",
-    "category": "사진•영상•영화제",
-    "category_group": "ETC",
-    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
-    "award": "상금+상품(총상금 : 150만원 / 1위 : 50만원 / 굿즈 )",
-    "award_detail": "",
-    "apply_method": "",
-    "status": "마감 임박",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610300020",
     "source": "콘테스트코리아"
   },
   {
@@ -1677,6 +1613,54 @@
     "apply_method": "이메일접수, 우편접수",
     "status": "접수 중",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611050042",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611060002",
+    "title": "제74회 세계 한센병의 날 한센병 바로 알기 영상 공모",
+    "organization": "한국한센복지협회",
+    "start_date": "2026-11-09",
+    "deadline": "2026-12-04",
+    "category": "사진•영상•영화제",
+    "category_group": "ETC",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "상금(총상금 : 150만원 / 1위 : 70만원)",
+    "award_detail": "",
+    "apply_method": "이메일접수",
+    "status": "접수 예정",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611060002",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611060004",
+    "title": "LG 어나더 아이디어 챌린지",
+    "organization": "LG전자",
+    "start_date": "2026-10-30",
+    "deadline": "2026-11-17",
+    "category": "아이디어•건축•창업",
+    "category_group": "ETC",
+    "eligibility": "해당자 ▶ ( 서울대학교, 부산대학교, 한양대학교, 울산과학기술원 대학생 )",
+    "award": "기타 :상품권, 웹페이지 포인트, LG스타일러 등",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202611060004",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611060005",
+    "title": "식약처 식중독 예방 공모전",
+    "organization": "식품의약품안전처/유브레인커뮤니케이션즈",
+    "start_date": "2026-10-26",
+    "deadline": "2026-11-23",
+    "category": "사진•영상•영화제",
+    "category_group": "ETC",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "상금(총상금 : 550만원 / 1위 : 200만원)",
+    "award_detail": "",
+    "apply_method": "이메일접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611060005",
     "source": "콘테스트코리아"
   }
 ]
