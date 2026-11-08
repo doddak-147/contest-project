@@ -315,7 +315,7 @@
     "award": "상금+상품(총상금 : 100만원 / 1위 : 30만원 / 상장 )",
     "award_detail": "",
     "apply_method": "이메일접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610260046",
     "source": "콘테스트코리아"
   },
@@ -491,7 +491,7 @@
     "award": "상금+상품(총상금 : 70만원 / 1위 : 30만원 / 배달의민족 모바일 상품권)",
     "award_detail": "",
     "apply_method": "온라인접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202610280016",
     "source": "콘테스트코리아"
   },
@@ -683,7 +683,7 @@
     "award": "상금+상품(총상금 : 950만원 / 1위 : 500만원 / 상장 )",
     "award_detail": "",
     "apply_method": "",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202610290006",
     "source": "콘테스트코리아"
   },
@@ -1291,7 +1291,7 @@
     "award": "상금(총상금 : 130만원 / 1위 : 50만원)",
     "award_detail": "",
     "apply_method": "이메일접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611030005",
     "source": "콘테스트코리아"
   },
@@ -1339,7 +1339,7 @@
     "award": "상금(총상금 : 200만원 / 1위 : 100만원)",
     "award_detail": "",
     "apply_method": "온라인접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202611030025",
     "source": "콘테스트코리아"
   },
@@ -1355,7 +1355,7 @@
     "award": "기타 :상위권 삼일PwC 채용 연계 / 선착순 1,000명 ChatGPT Plus 1개월",
     "award_detail": "",
     "apply_method": "온라인접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202611030035",
     "source": "콘테스트코리아"
   },
