@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-08T13:21:33+09:00",
-  "count": 569,
-  "raw_count": 664,
-  "duplicate_count": 95,
+  "updated_at": "2026-11-09T13:36:02+09:00",
+  "count": 546,
+  "raw_count": 648,
+  "duplicate_count": 102,
   "sources": {
     "thinkcontest": {
       "name": "씽굿",
       "url": "https://www.thinkcontest.com/thinkgood/user/contest/index.do",
-      "last_success_at": "2026-11-08T13:21:33+09:00",
+      "last_success_at": "2026-11-09T13:36:02+09:00",
       "scope": "active",
       "max_pages": null,
       "status": "success",
-      "count": 401,
-      "fetched_count": 401,
+      "count": 375,
+      "fetched_count": 375,
       "pages": 54
     },
     "wevity": {
       "name": "위비티",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1",
-      "last_success_at": "2026-11-08T13:21:22+09:00",
+      "last_success_at": "2026-11-09T13:35:58+09:00",
       "scope": "recent",
       "max_pages": 5,
       "status": "success",
-      "count": 159,
-      "fetched_count": 107,
-      "pages": 8
+      "count": 162,
+      "fetched_count": 95,
+      "pages": 7
     },
     "contestkorea": {
       "name": "콘테스트코리아",
       "url": "https://www.contestkorea.com/sub/list.php?int_gbn=1",
-      "last_success_at": "2026-11-08T13:20:43+09:00",
+      "last_success_at": "2026-11-09T13:35:29+09:00",
       "scope": "recent",
       "max_pages": 5,
       "status": "success",
-      "count": 104,
-      "fetched_count": 58,
+      "count": 111,
+      "fetched_count": 56,
       "pages": 5
     }
   }

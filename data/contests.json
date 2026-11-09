@@ -1,1045 +1,5 @@
 [
   {
-    "id": "thinkcontest-111157",
-    "title": "2026 KOBC 해양사진공모전 'Ocean in focus, 바다를 향한 시선'",
-    "organization": "한국해양진흥공사",
-    "start_date": "2026-09-14",
-    "deadline": "2026-11-08",
-    "category": "사진",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "5천만원 미만~3천만원 이상",
-    "award_detail": "1000만원",
-    "apply_method": "접수폼",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111157",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111157"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111157",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111157"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-110490",
-    "title": "2026 SF스토리 공모전",
-    "organization": "동아사이언스",
-    "start_date": "2026-08-31",
-    "deadline": "2026-11-08",
-    "category": "만화/캐릭터, 문학/수기, 영상/UCC",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "200만원 외",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110490",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-110490"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-110490",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110490"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111980",
-    "title": "2026 경북 영양군 밤하늘 사진·음원공모전",
-    "organization": "문화체육관광부",
-    "start_date": "2026-10-16",
-    "deadline": "2026-11-08",
-    "category": "사진, 음악",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "5천만원 미만~3천만원 이상",
-    "award_detail": "300만원",
-    "apply_method": "접수폼",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111980",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111980"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111980",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111980"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111929",
-    "title": "2026 고립·은둔청년 인식개선 공모전",
-    "organization": "서울청년기지개센터",
-    "start_date": "2026-10-15",
-    "deadline": "2026-11-08",
-    "category": "기획/아이디어, 디자인, 만화/캐릭터, 영상/UCC",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "200만원",
-    "apply_method": "접수폼",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111929",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111929"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111929",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111929"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112408",
-    "title": "2026 공학페스티벌 E²SODE 쇼츠공모전",
-    "organization": "산업통상부 한국산업기술진흥원 공학교육혁신협의회",
-    "start_date": "2026-10-26",
-    "deadline": "2026-11-08",
-    "category": "영상/UCC",
-    "category_group": "ETC",
-    "eligibility": "대학생, 대학원생, 기타",
-    "award": "기타",
-    "award_detail": "",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112408",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112408"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112408",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112408"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-110666",
-    "title": "2026 구로구 유튜브 쇼츠 영상 공모전",
-    "organization": "구로구",
-    "start_date": "2026-09-08",
-    "deadline": "2026-11-08",
-    "category": "영상/UCC",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "기타",
-    "award_detail": "",
-    "apply_method": "접수폼",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110666",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-110666"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-110666",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110666"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111128",
-    "title": "2026 대원 웹소설 아카데미 공모전",
-    "organization": "대원씨아이 주식회사",
-    "start_date": "2026-10-05",
-    "deadline": "2026-11-08",
-    "category": "문학/수기",
-    "category_group": "IT",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음, 기타",
-    "award": "기타",
-    "award_detail": "",
-    "apply_method": "이메일",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111128",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111128"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111128",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111128"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111177",
-    "title": "2026 대한지방행정공제회 생성형 AI 콘텐츠 공모전",
-    "organization": "대한지방행정공제회",
-    "start_date": "2026-09-14",
-    "deadline": "2026-11-08",
-    "category": "영상/UCC",
-    "category_group": "IT",
-    "eligibility": "기타",
-    "award": "1천만원 미만",
-    "award_detail": "150만원",
-    "apply_method": "접수폼, 이메일",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111177",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111177"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111177",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111177"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111349",
-    "title": "2026 서울영상공모전 <서울 밤로그>",
-    "organization": "서울특별시청",
-    "start_date": "2026-09-30",
-    "deadline": "2026-11-08",
-    "category": "영상/UCC",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 기업, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "100만원",
-    "apply_method": "접수폼",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111349",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111349"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111349",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111349"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-109396",
-    "title": "2026 엔지니어링산업 웹툰 기획 스토리 공모전",
-    "organization": "한국엔지니어링협회",
-    "start_date": "2026-08-11",
-    "deadline": "2026-11-08",
-    "category": "기획/아이디어, 만화/캐릭터",
-    "category_group": "IT",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 기업, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "700만원",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=109396",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-109396"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-109396",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=109396"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111805",
-    "title": "2026 우리과일 요리경연대회",
-    "organization": "농림축산식품부",
-    "start_date": "2026-10-12",
-    "deadline": "2026-11-08",
-    "category": "대회",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "기타",
-    "award_detail": "100만원",
-    "apply_method": "이메일, 홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111805",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111805"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111805",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111805"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-110482",
-    "title": "2026 전국 민촌백일장",
-    "organization": "한국문인협회 천안지부",
-    "start_date": "2026-09-01",
-    "deadline": "2026-11-08",
-    "category": "문학/수기",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "50만원",
-    "apply_method": "이메일",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110482",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-110482"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-110482",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110482"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111934",
-    "title": "2026 청년 어촌 창업 아이디어 공모전",
-    "organization": "한국어촌어항공단",
-    "start_date": "2026-10-08",
-    "deadline": "2026-11-08",
-    "category": "광고/마케팅, 기획/아이디어, 취업/창업",
-    "category_group": "ETC",
-    "eligibility": "대학생, 대학원생, 일반인, 기타",
-    "award": "3천만원 미만~1천만원 이상",
-    "award_detail": "500만원",
-    "apply_method": "이메일, 홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111934",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111934"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111934",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111934"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111793",
-    "title": "2026 청춘레이스",
-    "organization": "(사)행복한가게",
-    "start_date": "2026-10-13",
-    "deadline": "2026-11-08",
-    "category": "대회",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "기타",
-    "award_detail": "",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111793",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111793"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111793",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111793"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111233",
-    "title": "2026 팬트리픽 마스코트 일러스트 공모전",
-    "organization": "주식회사 프랭크스토어",
-    "start_date": "2026-10-02",
-    "deadline": "2026-11-08",
-    "category": "디자인, 만화/캐릭터, 미술",
-    "category_group": "ETC",
-    "eligibility": "중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인",
-    "award": "1천만원 미만",
-    "award_detail": "100만원",
-    "apply_method": "접수폼, 홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111233",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111233"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111233",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111233"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112259",
-    "title": "2026년 EBS AI교육 실습 도구 명칭 공모전",
-    "organization": "EBS",
-    "start_date": "2026-10-26",
-    "deadline": "2026-11-08",
-    "category": "네이밍/슬로건",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "500만원",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112259",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112259"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112259",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112259"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112281",
-    "title": "2026년 서울중구시설관리공단 ESG혁신 아이디어 공모전",
-    "organization": "서울중구시설관리공단",
-    "start_date": "2026-10-30",
-    "deadline": "2026-11-08",
-    "category": "기획/아이디어",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "기타",
-    "award_detail": "",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112281",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112281"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112281",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112281"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-110961",
-    "title": "2026년 제4회 청소년 안전 AI 영상 공모전",
-    "organization": "서울특별시립청소년활동진흥센터",
-    "start_date": "2026-09-03",
-    "deadline": "2026-11-08",
-    "category": "영상/UCC",
-    "category_group": "IT",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 지역 제한",
-    "award": "1천만원 미만",
-    "award_detail": "",
-    "apply_method": "이메일",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110961",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-110961"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-110961",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110961"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111991",
-    "title": "2026년 한전KDN 슬로건 공모전",
-    "organization": "한전KDN",
-    "start_date": "2026-10-19",
-    "deadline": "2026-11-08",
-    "category": "네이밍/슬로건",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "100만원",
-    "apply_method": "이메일",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111991",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111991"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111991",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111991"
-      }
-    ]
-  },
-  {
-    "id": "contestkorea-202610280015",
-    "title": "E²SODE 공대생 에피소드 쇼츠공모전",
-    "organization": "산업통상부, 한국산업기술진흥원, 공학교육혁신협의회",
-    "start_date": "2026-10-26",
-    "deadline": "2026-11-08",
-    "category": "사진•영상•영화제",
-    "category_group": "ETC",
-    "eligibility": "대학생 , 대학원생",
-    "award": "상품(삼탠바이미, 로지텍 무선키보드, 텀블러 외 )",
-    "award_detail": "",
-    "apply_method": "온라인접수",
-    "status": "마감 임박",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610280015",
-    "source": "콘테스트코리아",
-    "aliases": [
-      "contestkorea-202610280015"
-    ],
-    "sources": [
-      {
-        "id": "contestkorea-202610280015",
-        "name": "콘테스트코리아",
-        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610280015"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112105",
-    "title": "The 2nd doodll AI Makeathon",
-    "organization": "(주)컴포랩스",
-    "start_date": "2026-10-26",
-    "deadline": "2026-11-08",
-    "category": "기획/아이디어, 디자인",
-    "category_group": "IT",
-    "eligibility": "중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 기업",
-    "award": "1천만원 미만",
-    "award_detail": "100만원",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112105",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112105"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112105",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112105"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111844",
-    "title": "[서울시] 탄탄제로 챌린지 도심 쓰레기 처방전 공모 (~2026.11.08.)",
-    "organization": "서울시",
-    "start_date": "2026-10-08",
-    "deadline": "2026-11-08",
-    "category": "기획/아이디어",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "100만원",
-    "apply_method": "접수폼, 이메일",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111844",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111844"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111844",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111844"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111835",
-    "title": "도심 쓰레기 처방전 공모",
-    "organization": "서울시",
-    "start_date": "2026-10-08",
-    "deadline": "2026-11-08",
-    "category": "문학/수기, 미술, 영상/UCC",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "100만원",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111835",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111835"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111835",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111835"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111858",
-    "title": "만휴정에서 행운을 만날지도 방문 인증샷 공모전",
-    "organization": "한국관광공사 대구경북지사",
-    "start_date": "2026-09-10",
-    "deadline": "2026-11-08",
-    "category": "사진",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "기타",
-    "award_detail": "",
-    "apply_method": "접수폼",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111858",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111858"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111858",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111858"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112604",
-    "title": "소싱인마켓 급부상 AI광고제",
-    "organization": "소싱인마켓",
-    "start_date": "2026-10-21",
-    "deadline": "2026-11-08",
-    "category": "광고/마케팅",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "기타",
-    "award_detail": "",
-    "apply_method": "접수폼",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112604",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112604"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112604",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112604"
-      }
-    ]
-  },
-  {
-    "id": "contestkorea-202610290016",
-    "title": "연극 〈문워킹홀리데이〉 배우 모집",
-    "organization": "극단 산타할머니",
-    "start_date": "2026-10-29",
-    "deadline": "2026-11-08",
-    "category": "요리•뷰티•배우•오디션",
-    "category_group": "ETC",
-    "eligibility": "일반인",
-    "award": "없음",
-    "award_detail": "",
-    "apply_method": "이메일접수",
-    "status": "마감 임박",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031610001&str_no=202610290016",
-    "source": "콘테스트코리아",
-    "aliases": [
-      "contestkorea-202610290016"
-    ],
-    "sources": [
-      {
-        "id": "contestkorea-202610290016",
-        "name": "콘테스트코리아",
-        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031610001&str_no=202610290016"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112065",
-    "title": "위험현장 사고조사를 위한 첨단기술 활용 아이디어 공모",
-    "organization": "국토안전관리원",
-    "start_date": "2026-10-19",
-    "deadline": "2026-11-08",
-    "category": "기획/아이디어",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "기타",
-    "award_detail": "",
-    "apply_method": "접수폼",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112065",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112065"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112065",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112065"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-110989",
-    "title": "의정부도시공사 「AI 혁신 아이디어 공모전」",
-    "organization": "의정부도시공사",
-    "start_date": "2026-09-15",
-    "deadline": "2026-11-08",
-    "category": "기획/아이디어",
-    "category_group": "IT",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "20만원",
-    "apply_method": "이메일",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110989",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-110989"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-110989",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110989"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112614",
-    "title": "자원봉사 x AI 영상 공모전",
-    "organization": "한국중앙자원봉사센터",
-    "start_date": "2026-11-03",
-    "deadline": "2026-11-08",
-    "category": "광고/마케팅, 기획/아이디어, 영상/UCC",
-    "category_group": "IT",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "3천만원 미만~1천만원 이상",
-    "award_detail": "300만원",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112614",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112614"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112614",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112614"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-110349",
-    "title": "제 2회 직스캐드 AX 경진대회",
-    "organization": "직스테크놀로지",
-    "start_date": "2026-08-31",
-    "deadline": "2026-11-08",
-    "category": "건축, 과학, 광고/마케팅, 기획/아이디어, 대회, 영상/UCC",
-    "category_group": "ETC",
-    "eligibility": "고등학생, 대학생",
-    "award": "1천만원 미만",
-    "award_detail": "1000000",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110349",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-110349"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-110349",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110349"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111953",
-    "title": "제0회 리듬으로 부탁해 동인 리듬게임 수록곡 공모전",
-    "organization": "젤리스노우",
-    "start_date": "2026-09-22",
-    "deadline": "2026-11-08",
-    "category": "기획/아이디어, 음악",
-    "category_group": "IT",
-    "eligibility": "제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "50만원",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111953",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111953"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111953",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111953"
-      }
-    ]
-  },
-  {
-    "id": "contestkorea-202610240001",
-    "title": "제1회 다낭국제스마트폰영화제",
-    "organization": "다낭국제스마트폰영화제조직위원회",
-    "start_date": "2026-10-21",
-    "deadline": "2026-11-08",
-    "category": "사진•영상•영화제",
-    "category_group": "ETC",
-    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
-    "award": "상금+상품(총상금 : 370만원 / 1위 : 150만원 / 항공비, 숙박 지원 )",
-    "award_detail": "",
-    "apply_method": "이메일접수",
-    "status": "마감 임박",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610240001",
-    "source": "콘테스트코리아",
-    "aliases": [
-      "contestkorea-202610240001"
-    ],
-    "sources": [
-      {
-        "id": "contestkorea-202610240001",
-        "name": "콘테스트코리아",
-        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610240001"
-      }
-    ]
-  },
-  {
-    "id": "contestkorea-202610230037",
-    "title": "제2회 손상예방의날 기념 경북권 손상 예방 포스터 공모전",
-    "organization": "질병관리청",
-    "start_date": "2026-10-26",
-    "deadline": "2026-11-08",
-    "category": "미술•디자인•웹툰",
-    "category_group": "IT",
-    "eligibility": "초등학생 , 중학생 , 고등학생 , 해당자 ▶ ( 대구·경북 소재 학생 )",
-    "award": "상금+상품(총상금 : 160만원 / 1위 : 0만원 / )",
-    "award_detail": "",
-    "apply_method": "이메일접수",
-    "status": "마감 임박",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202610230037",
-    "source": "콘테스트코리아",
-    "aliases": [
-      "contestkorea-202610230037"
-    ],
-    "sources": [
-      {
-        "id": "contestkorea-202610230037",
-        "name": "콘테스트코리아",
-        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202610230037"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112440",
-    "title": "제2회 손상예방의날 기념 경북권 손상 예방 포스터 공모전",
-    "organization": "경북권질병대응센터",
-    "start_date": "2026-10-26",
-    "deadline": "2026-11-08",
-    "category": "디자인, 미술",
-    "category_group": "ETC",
-    "eligibility": "초등학생, 중학생, 고등학생, 동 연령대 청소년, 지역 제한",
-    "award": "기타",
-    "award_detail": "",
-    "apply_method": "이메일",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112440",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112440"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112440",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112440"
-      }
-    ]
-  },
-  {
-    "id": "contestkorea-202610290001",
-    "title": "제3회 다대는TV 유튜브 영상 공모전 (기간연장)",
-    "organization": "다대1동 주민자치위원회 / 다대1동 행정복지센터",
-    "start_date": "2026-08-24",
-    "deadline": "2026-11-08",
-    "category": "사진•영상•영화제",
-    "category_group": "ETC",
-    "eligibility": "해당자 ▶ ( 부산광역시민 또는 부산광역시 소재 초,중,고등학생 )",
-    "award": "상금(총상금 : 200만원 / 1위 : 35만원)",
-    "award_detail": "",
-    "apply_method": "이메일접수, 방문접수",
-    "status": "마감 임박",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610290001",
-    "source": "콘테스트코리아",
-    "aliases": [
-      "contestkorea-202610290001"
-    ],
-    "sources": [
-      {
-        "id": "contestkorea-202610290001",
-        "name": "콘테스트코리아",
-        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610290001"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112563",
-    "title": "제주어 페우다 누리집 2026년 가을 퀴즈 이벤트 안내",
-    "organization": "제주학연구센터",
-    "start_date": "2026-10-09",
-    "deadline": "2026-11-08",
-    "category": "이벤트",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "기타",
-    "award_detail": "1만원 상당의 모바일상품권",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112563",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112563"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112563",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112563"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112564",
-    "title": "제주어왓 누리집 2026년 가을 퀴즈 이벤트 안내",
-    "organization": "제주학연구센터",
-    "start_date": "2026-10-09",
-    "deadline": "2026-11-08",
-    "category": "이벤트",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "기타",
-    "award_detail": "",
-    "apply_method": "홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112564",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112564"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112564",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112564"
-      }
-    ]
-  },
-  {
-    "id": "contestkorea-202610260006",
-    "title": "창작극 [사로] 배우 모집",
-    "organization": "극단벼루",
-    "start_date": "2026-10-25",
-    "deadline": "2026-11-08",
-    "category": "요리•뷰티•배우•오디션",
-    "category_group": "ETC",
-    "eligibility": "일반인 , 해당자 ▶ ( 20대~30대 남자 배우 )",
-    "award": "없음",
-    "award_detail": "",
-    "apply_method": "이메일접수",
-    "status": "마감 임박",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031610001&str_no=202610260006",
-    "source": "콘테스트코리아",
-    "aliases": [
-      "contestkorea-202610260006"
-    ],
-    "sources": [
-      {
-        "id": "contestkorea-202610260006",
-        "name": "콘테스트코리아",
-        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031610001&str_no=202610260006"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112128",
-    "title": "취약노동자 지원 네트워크 이름짓기 공모전",
-    "organization": "노사발전재단",
-    "start_date": "2026-10-20",
-    "deadline": "2026-11-08",
-    "category": "네이밍/슬로건",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "기타",
-    "award_detail": "",
-    "apply_method": "접수폼",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112128",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112128"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112128",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112128"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111206",
-    "title": "팬트리픽 캐릭터 공모전",
-    "organization": "주식회사 프랭크스토어",
-    "start_date": "2026-10-02",
-    "deadline": "2026-11-08",
-    "category": "디자인, 만화/캐릭터",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "100만원",
-    "apply_method": "접수폼",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111206",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111206"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111206",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111206"
-      }
-    ]
-  },
-  {
     "id": "thinkcontest-112013",
     "title": "2026 K-AWARDS DIGITAL EXCELLENCE AWARDS",
     "organization": "잡오브브라더스",
@@ -2959,7 +1919,7 @@
     "award": "없음",
     "award_detail": "",
     "apply_method": "이메일접수",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202610210033",
     "source": "콘테스트코리아",
     "aliases": [
@@ -3477,7 +2437,7 @@
     "award": "1천만원 미만",
     "award_detail": "300만원",
     "apply_method": "우편, 방문",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110358",
     "source": "씽굿",
     "aliases": [
@@ -3535,7 +2495,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "이메일, 우편, 방문",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110737",
     "source": "씽굿",
     "aliases": [
@@ -3671,7 +2631,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "접수폼, 기타",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112649",
     "source": "씽굿",
     "aliases": [
@@ -4119,7 +3079,7 @@
     "award": "상품(액션캠 및 지역특산품)",
     "award_detail": "",
     "apply_method": "이메일접수",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610220050",
     "source": "콘테스트코리아",
     "aliases": [
@@ -4921,7 +3881,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "300만원",
     "apply_method": "홈페이지",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111999",
     "source": "씽굿",
     "aliases": [
@@ -5037,7 +3997,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "우편",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112353",
     "source": "씽굿",
     "aliases": [
@@ -5063,7 +4023,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "1,000만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=101389",
     "source": "씽굿",
     "aliases": [
@@ -5089,7 +4049,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110758",
     "source": "씽굿",
     "aliases": [
@@ -5141,10 +4101,11 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "이메일, 우편",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112601",
     "source": "씽굿",
     "aliases": [
+      "contestkorea-202611020027",
       "thinkcontest-112601"
     ],
     "sources": [
@@ -5152,6 +4113,11 @@
         "id": "thinkcontest-112601",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112601"
+      },
+      {
+        "id": "contestkorea-202611020027",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202611020027"
       }
     ]
   },
@@ -5167,7 +4133,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "300만원",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112487",
     "source": "씽굿",
     "aliases": [
@@ -5193,7 +4159,7 @@
     "award": "1천만원 미만",
     "award_detail": "학생부30만원/대학•일반부 50만원",
     "apply_method": "우편, 방문",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=109581",
     "source": "씽굿",
     "aliases": [
@@ -5230,6 +4196,32 @@
         "id": "contestkorea-202610260008",
         "name": "콘테스트코리아",
         "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202610260008"
+      }
+    ]
+  },
+  {
+    "id": "contestkorea-202611070021",
+    "title": "Korea Local Marketing Hackathon 2026",
+    "organization": "HACK:ON(해커온)",
+    "start_date": "2026-11-07",
+    "deadline": "2026-11-16",
+    "category": "학문•과학•IT",
+    "category_group": "IT",
+    "eligibility": "중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "없음",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "마감 임박",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202611070021",
+    "source": "콘테스트코리아",
+    "aliases": [
+      "contestkorea-202611070021"
+    ],
+    "sources": [
+      {
+        "id": "contestkorea-202611070021",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202611070021"
       }
     ]
   },
@@ -5271,7 +4263,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "12,000,000",
     "apply_method": "이메일",
-    "status": "접수 예정",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112021",
     "source": "씽굿",
     "aliases": [
@@ -5297,7 +4289,7 @@
     "award": "1천만원 미만",
     "award_detail": "300만원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112001",
     "source": "씽굿",
     "aliases": [
@@ -5323,7 +4315,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "500만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112475",
     "source": "씽굿",
     "aliases": [
@@ -5401,7 +4393,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "2,000만원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111276",
     "source": "씽굿",
     "aliases": [
@@ -5427,7 +4419,7 @@
     "award": "1천만원 미만",
     "award_detail": "도서문화 상품권 100만 원 & 부총리 겸 과학기술정보통신부장관상",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112579",
     "source": "씽굿",
     "aliases": [
@@ -5459,7 +4451,7 @@
     "award": "1천만원 미만",
     "award_detail": "200만원",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110955",
     "source": "씽굿",
     "aliases": [
@@ -5511,7 +4503,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111612",
     "source": "씽굿",
     "aliases": [
@@ -5537,7 +4529,7 @@
     "award": "1천만원 미만",
     "award_detail": "50만원",
     "apply_method": "접수폼, 이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112144",
     "source": "씽굿",
     "aliases": [
@@ -5954,6 +4946,32 @@
     ]
   },
   {
+    "id": "contestkorea-202611040018",
+    "title": "2026 석수본페스타 사진공모전",
+    "organization": "안양시 석수본동 골목상권",
+    "start_date": "2026-11-05",
+    "deadline": "2026-11-18",
+    "category": "사진•영상•영화제",
+    "category_group": "ETC",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "기타 :상금과 기념품",
+    "award_detail": "",
+    "apply_method": "",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611040018",
+    "source": "콘테스트코리아",
+    "aliases": [
+      "contestkorea-202611040018"
+    ],
+    "sources": [
+      {
+        "id": "contestkorea-202611040018",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611040018"
+      }
+    ]
+  },
+  {
     "id": "wevity-112161",
     "title": "2026 아라뱃길 시민 서포터즈 모집",
     "organization": "케이워터운영관리",
@@ -6269,7 +5287,7 @@
     "award": "1천만원 미만",
     "award_detail": "",
     "apply_method": "접수폼",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112482",
     "source": "씽굿",
     "aliases": [
@@ -6411,7 +5429,7 @@
     "award": "1천만원 미만",
     "award_detail": "30만원",
     "apply_method": "접수폼",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111482",
     "source": "씽굿",
     "aliases": [
@@ -7057,13 +6075,19 @@
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202610300005",
     "source": "콘테스트코리아",
     "aliases": [
-      "contestkorea-202610300005"
+      "contestkorea-202610300005",
+      "thinkcontest-112717"
     ],
     "sources": [
       {
         "id": "contestkorea-202610300005",
         "name": "콘테스트코리아",
         "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202610300005"
+      },
+      {
+        "id": "thinkcontest-112717",
+        "name": "씽굿",
+        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112717"
       }
     ]
   },
@@ -7849,7 +6873,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "300만원",
     "apply_method": "우편, 방문",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=104491",
     "source": "씽굿",
     "aliases": [
@@ -8429,6 +7453,7 @@
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112677",
     "source": "씽굿",
     "aliases": [
+      "contestkorea-202611050035",
       "thinkcontest-112677",
       "wevity-112181"
     ],
@@ -8437,6 +7462,11 @@
         "id": "thinkcontest-112677",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112677"
+      },
+      {
+        "id": "contestkorea-202611050035",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202611050035"
       },
       {
         "id": "wevity-112181",
@@ -8704,6 +7734,32 @@
     ]
   },
   {
+    "id": "wevity-112241",
+    "title": "난치병 아동의 소원천사 42기 위시엔젤 모집",
+    "organization": "메이크어위시 코리아",
+    "start_date": "2026-11-09",
+    "deadline": "2026-11-22",
+    "category": "봉사활동",
+    "category_group": "ETC",
+    "eligibility": "대학생",
+    "award": "다양한 혜택",
+    "award_detail": "",
+    "apply_method": "",
+    "status": "접수 중",
+    "link": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112241",
+    "source": "위비티",
+    "aliases": [
+      "wevity-112241"
+    ],
+    "sources": [
+      {
+        "id": "wevity-112241",
+        "name": "위비티",
+        "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112241"
+      }
+    ]
+  },
+  {
     "id": "wevity-112122",
     "title": "부산 동구 AI 숏폼 영상 공모전",
     "organization": "부산동구청",
@@ -8929,7 +7985,7 @@
     "award": "5천만원 미만~3천만원 이상",
     "award_detail": "500만원",
     "apply_method": "홈페이지",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112446",
     "source": "씽굿",
     "aliases": [
@@ -9044,6 +8100,32 @@
         "id": "thinkcontest-112117",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112117"
+      }
+    ]
+  },
+  {
+    "id": "thinkcontest-112742",
+    "title": "27년 문학고을 계간지 상반기 등단 신인 문학상 공모 <제 91회 1차 공모> (엘리트 문학의 산실 / 등단의 길잡이)",
+    "organization": "문학고을/문학고을출판사",
+    "start_date": "2026-11-09",
+    "deadline": "2026-11-23",
+    "category": "문학/수기",
+    "category_group": "ETC",
+    "eligibility": "대학생, 대학원생, 일반인",
+    "award": "기타",
+    "award_detail": "70만원",
+    "apply_method": "이메일",
+    "status": "접수 중",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112742",
+    "source": "씽굿",
+    "aliases": [
+      "thinkcontest-112742"
+    ],
+    "sources": [
+      {
+        "id": "thinkcontest-112742",
+        "name": "씽굿",
+        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112742"
       }
     ]
   },
@@ -9304,6 +8386,32 @@
         "id": "contestkorea-202610230038",
         "name": "콘테스트코리아",
         "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610230038"
+      }
+    ]
+  },
+  {
+    "id": "contestkorea-202611080001",
+    "title": "제 20회 백석 글판 공모전",
+    "organization": "백석예술대학교",
+    "start_date": "2026-11-06",
+    "deadline": "2026-11-23",
+    "category": "문학•문예",
+    "category_group": "ETC",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "기타 :교내 현수막 기재 및 소정의 기념품",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611080001",
+    "source": "콘테스트코리아",
+    "aliases": [
+      "contestkorea-202611080001"
+    ],
+    "sources": [
+      {
+        "id": "contestkorea-202611080001",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611080001"
       }
     ]
   },
@@ -9586,6 +8694,32 @@
     ]
   },
   {
+    "id": "thinkcontest-112718",
+    "title": "2026 K-콘텐츠 관광마케팅 기초아카데미 모집 (~11/26)",
+    "organization": "부산관광공사",
+    "start_date": "2026-11-06",
+    "deadline": "2026-11-25",
+    "category": "광고/마케팅, 기획/아이디어, 취업/창업",
+    "category_group": "ETC",
+    "eligibility": "대학생, 대학원생, 일반인, 지역 제한",
+    "award": "1천만원 미만",
+    "award_detail": "200만원",
+    "apply_method": "이메일",
+    "status": "접수 중",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112718",
+    "source": "씽굿",
+    "aliases": [
+      "thinkcontest-112718"
+    ],
+    "sources": [
+      {
+        "id": "thinkcontest-112718",
+        "name": "씽굿",
+        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112718"
+      }
+    ]
+  },
+  {
     "id": "thinkcontest-110313",
     "title": "2026 뇌전증 인식개선 공모전",
     "organization": "사단법인 한국뇌전증협회",
@@ -9608,6 +8742,32 @@
         "id": "thinkcontest-110313",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110313"
+      }
+    ]
+  },
+  {
+    "id": "thinkcontest-112731",
+    "title": "2026 안성여행 스마트폰 사진 공모전",
+    "organization": "안성시",
+    "start_date": "2026-10-26",
+    "deadline": "2026-11-25",
+    "category": "사진",
+    "category_group": "ETC",
+    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
+    "award": "1천만원 미만",
+    "award_detail": "50만원",
+    "apply_method": "접수폼, 홈페이지",
+    "status": "접수 중",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112731",
+    "source": "씽굿",
+    "aliases": [
+      "thinkcontest-112731"
+    ],
+    "sources": [
+      {
+        "id": "thinkcontest-112731",
+        "name": "씽굿",
+        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112731"
       }
     ]
   },
@@ -10005,10 +9165,12 @@
     "award": "1천만원이하",
     "award_detail": "300만원",
     "apply_method": "",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112153",
     "source": "위비티",
     "aliases": [
+      "contestkorea-202611080002",
+      "thinkcontest-112733",
       "wevity-112153"
     ],
     "sources": [
@@ -10016,6 +9178,16 @@
         "id": "wevity-112153",
         "name": "위비티",
         "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112153"
+      },
+      {
+        "id": "thinkcontest-112733",
+        "name": "씽굿",
+        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112733"
+      },
+      {
+        "id": "contestkorea-202611080002",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611080002"
       }
     ]
   },
@@ -10109,7 +9281,7 @@
     "award": "다양한 혜택",
     "award_detail": "",
     "apply_method": "",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112194",
     "source": "위비티",
     "aliases": [
@@ -10720,6 +9892,32 @@
     ]
   },
   {
+    "id": "wevity-112236",
+    "title": "2026 대구 로컬AI그라운드 - 지역문제 해결형 AI활용 경진대회",
+    "organization": "대구광역시,대구창조경제혁신센터 / 대구정책연구원,대구광역시 창의도시재생지원센터",
+    "start_date": "2026-11-06",
+    "deadline": "2026-11-30",
+    "category": "웹/모바일/IT",
+    "category_group": "IT",
+    "eligibility": "제한없음",
+    "award": "1천만원이하",
+    "award_detail": "",
+    "apply_method": "",
+    "status": "접수 중",
+    "link": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112236",
+    "source": "위비티",
+    "aliases": [
+      "wevity-112236"
+    ],
+    "sources": [
+      {
+        "id": "wevity-112236",
+        "name": "위비티",
+        "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112236"
+      }
+    ]
+  },
+  {
     "id": "thinkcontest-111767",
     "title": "2026 레진성인공모전",
     "organization": "레진엔터테인먼트",
@@ -11191,7 +10389,7 @@
     "award": "1억 미만~5천만원 이상",
     "award_detail": "500만원",
     "apply_method": "접수폼",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112262",
     "source": "씽굿",
     "aliases": [
@@ -11281,6 +10479,32 @@
         "id": "thinkcontest-108484",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=108484"
+      }
+    ]
+  },
+  {
+    "id": "contestkorea-202611080007",
+    "title": "고령군 소식지 네이밍 공모",
+    "organization": "고령군",
+    "start_date": "2026-11-02",
+    "deadline": "2026-11-30",
+    "category": "네이밍•슬로건",
+    "category_group": "ETC",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "상금(총상금 : 30만원 / 1위 : 30만원)",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202611080007",
+    "source": "콘테스트코리아",
+    "aliases": [
+      "contestkorea-202611080007"
+    ],
+    "sources": [
+      {
+        "id": "contestkorea-202611080007",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202611080007"
       }
     ]
   },
@@ -11391,6 +10615,32 @@
         "id": "thinkcontest-112246",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112246"
+      }
+    ]
+  },
+  {
+    "id": "contestkorea-202611070014",
+    "title": "뚝닭 댄스 챌린지",
+    "organization": "BHC",
+    "start_date": "2026-10-25",
+    "deadline": "2026-11-30",
+    "category": "음악•콩쿠르•댄스",
+    "category_group": "ETC",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "상품(bhc 치킨 1년 이용권 및 금액권 외 )",
+    "award_detail": "",
+    "apply_method": "",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030910001&str_no=202611070014",
+    "source": "콘테스트코리아",
+    "aliases": [
+      "contestkorea-202611070014"
+    ],
+    "sources": [
+      {
+        "id": "contestkorea-202611070014",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030910001&str_no=202611070014"
       }
     ]
   },
@@ -11591,6 +10841,32 @@
         "id": "thinkcontest-111900",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111900"
+      }
+    ]
+  },
+  {
+    "id": "contestkorea-202611080006",
+    "title": "신월곡1구역 상업시설&공동주택 네이밍 공모전",
+    "organization": "신월곡1구역도시환경정비사업조합",
+    "start_date": "2026-11-09",
+    "deadline": "2026-11-30",
+    "category": "네이밍•슬로건",
+    "category_group": "ETC",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "상품(골드바, 백화점 상품권 외 )",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202611080006",
+    "source": "콘테스트코리아",
+    "aliases": [
+      "contestkorea-202611080006"
+    ],
+    "sources": [
+      {
+        "id": "contestkorea-202611080006",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202611080006"
       }
     ]
   },
@@ -11882,6 +11158,7 @@
     "link": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112148",
     "source": "위비티",
     "aliases": [
+      "contestkorea-202611040062",
       "wevity-112148"
     ],
     "sources": [
@@ -11889,6 +11166,11 @@
         "id": "wevity-112148",
         "name": "위비티",
         "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112148"
+      },
+      {
+        "id": "contestkorea-202611040062",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611040062"
       }
     ]
   },
@@ -12023,6 +11305,32 @@
     ]
   },
   {
+    "id": "thinkcontest-112740",
+    "title": "제57회 대원 수퍼만화 대상",
+    "organization": "대원씨아이 주식회사",
+    "start_date": "2026-11-09",
+    "deadline": "2026-11-30",
+    "category": "만화/캐릭터",
+    "category_group": "ETC",
+    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
+    "award": "3천만원 미만~1천만원 이상",
+    "award_detail": "1000만원",
+    "apply_method": "이메일",
+    "status": "접수 중",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112740",
+    "source": "씽굿",
+    "aliases": [
+      "thinkcontest-112740"
+    ],
+    "sources": [
+      {
+        "id": "thinkcontest-112740",
+        "name": "씽굿",
+        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112740"
+      }
+    ]
+  },
+  {
     "id": "thinkcontest-112323",
     "title": "제7회 한국섬유·패션디자인 콘테스트",
     "organization": "(사)한국섬유패션산학협회",
@@ -12134,6 +11442,7 @@
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112523",
     "source": "씽굿",
     "aliases": [
+      "contestkorea-202611020014",
       "thinkcontest-112523"
     ],
     "sources": [
@@ -12141,6 +11450,37 @@
         "id": "thinkcontest-112523",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112523"
+      },
+      {
+        "id": "contestkorea-202611020014",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202611020014"
+      }
+    ]
+  },
+  {
+    "id": "contestkorea-202611060028",
+    "title": "2026 세명 대학언론상",
+    "organization": "세명대 저널리즘대학원",
+    "start_date": "2026-11-02",
+    "deadline": "2026-12-01",
+    "category": "문학•문예",
+    "category_group": "ETC",
+    "eligibility": "대학생",
+    "award": "상금(총상금 : 650만원 / 1위 : 200만원)",
+    "award_detail": "",
+    "apply_method": "이메일접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611060028",
+    "source": "콘테스트코리아",
+    "aliases": [
+      "contestkorea-202611060028"
+    ],
+    "sources": [
+      {
+        "id": "contestkorea-202611060028",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611060028"
       }
     ]
   },
@@ -12219,6 +11559,32 @@
         "id": "thinkcontest-112215",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112215"
+      }
+    ]
+  },
+  {
+    "id": "contestkorea-202611020029",
+    "title": "2026년 공공데이터 활용 경진대회",
+    "organization": "한국체육산업개발(주)",
+    "start_date": "2026-11-02",
+    "deadline": "2026-12-01",
+    "category": "아이디어•건축•창업",
+    "category_group": "IT",
+    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+    "award": "기타 :시상금(최우수상 300만원 상당)",
+    "award_detail": "",
+    "apply_method": "이메일접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202611020029",
+    "source": "콘테스트코리아",
+    "aliases": [
+      "contestkorea-202611020029"
+    ],
+    "sources": [
+      {
+        "id": "contestkorea-202611020029",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202611020029"
       }
     ]
   },
@@ -12657,6 +12023,32 @@
     ]
   },
   {
+    "id": "thinkcontest-112737",
+    "title": "2027년 갤러리 전시 작가 대관 공모",
+    "organization": "유한회사 케이알갤러리",
+    "start_date": "2026-11-09",
+    "deadline": "2026-12-04",
+    "category": "미술",
+    "category_group": "ETC",
+    "eligibility": "대학생, 대학원생, 일반인",
+    "award": "기타",
+    "award_detail": "",
+    "apply_method": "이메일",
+    "status": "접수 중",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112737",
+    "source": "씽굿",
+    "aliases": [
+      "thinkcontest-112737"
+    ],
+    "sources": [
+      {
+        "id": "thinkcontest-112737",
+        "name": "씽굿",
+        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112737"
+      }
+    ]
+  },
+  {
     "id": "thinkcontest-111834",
     "title": "광주대학교 제5회 전국 고교생 웹소설 공모전",
     "organization": "광주대학교 문예창작과",
@@ -12694,7 +12086,7 @@
     "award": "상금(총상금 : 150만원 / 1위 : 70만원)",
     "award_detail": "",
     "apply_method": "이메일접수",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611060002",
     "source": "콘테스트코리아",
     "aliases": [
@@ -12720,7 +12112,7 @@
     "award": "1천만원이하",
     "award_detail": "70만원",
     "apply_method": "",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112154",
     "source": "위비티",
     "aliases": [
@@ -13387,6 +12779,32 @@
         "id": "thinkcontest-112354",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112354"
+      }
+    ]
+  },
+  {
+    "id": "thinkcontest-112747",
+    "title": "🎵 2026년 제3회 AMT AI 작곡대회 – KILLING DANCE 챌린지",
+    "organization": "주식회사 프롬프트뱅크",
+    "start_date": "2026-11-16",
+    "deadline": "2026-12-13",
+    "category": "대회, 영상/UCC, 음악, 이벤트",
+    "category_group": "IT",
+    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
+    "award": "1천만원 미만",
+    "award_detail": "30만원 신세계 상품권",
+    "apply_method": "홈페이지",
+    "status": "접수 예정",
+    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112747",
+    "source": "씽굿",
+    "aliases": [
+      "thinkcontest-112747"
+    ],
+    "sources": [
+      {
+        "id": "thinkcontest-112747",
+        "name": "씽굿",
+        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112747"
       }
     ]
   },
@@ -14431,6 +13849,32 @@
         "id": "thinkcontest-111171",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111171"
+      }
+    ]
+  },
+  {
+    "id": "wevity-112240",
+    "title": "제1회 ALONA 웹소설 공모전",
+    "organization": "알로나 / 알로나",
+    "start_date": "2026-11-16",
+    "deadline": "2027-01-10",
+    "category": "문학/글/시나리오",
+    "category_group": "IT",
+    "eligibility": "일반인, 대학생",
+    "award": "1천만원이하",
+    "award_detail": "50만원",
+    "apply_method": "",
+    "status": "접수 예정",
+    "link": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112240",
+    "source": "위비티",
+    "aliases": [
+      "wevity-112240"
+    ],
+    "sources": [
+      {
+        "id": "wevity-112240",
+        "name": "위비티",
+        "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112240"
       }
     ]
   },
