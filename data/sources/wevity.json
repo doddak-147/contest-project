@@ -2971,7 +2971,7 @@
     "award": "다양한 혜택",
     "award_detail": "",
     "apply_method": "",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112282",
     "source": "위비티"
   },
@@ -3508,7 +3508,7 @@
     "title": "제27회 전국국악동요경연대회",
     "organization": "한국코다이협회ㅡ비영리전문예술법인 / 모드니예술",
     "start_date": "2026-11-02",
-    "deadline": "2027-12-20",
+    "deadline": "2026-12-20",
     "category": "예체능/미술/음악",
     "category_group": "ETC",
     "eligibility": "어린이",

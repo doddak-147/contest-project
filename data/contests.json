@@ -1,109 +1,5 @@
 [
   {
-    "id": "thinkcontest-111434",
-    "title": "2026 태권도 의류형 굿즈 . 체험형 굿즈 아이디어 공모전",
-    "organization": "전북테크노파크, 무주군",
-    "start_date": "2026-10-01",
-    "deadline": "2026-11-14",
-    "category": "기획/아이디어, 디자인",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생, 중학생, 고등학생, 동 연령대 청소년, 대학생, 대학원생, 일반인, 제한 없음",
-    "award": "1천만원 미만",
-    "award_detail": "100만원",
-    "apply_method": "이메일",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111434",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111434"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111434",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111434"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-111808",
-    "title": "2026년 제 55회 충청남도 미술대전",
-    "organization": "(사) 한국미술협회 충남도지회",
-    "start_date": "2026-11-02",
-    "deadline": "2026-11-14",
-    "category": "디자인, 미술",
-    "category_group": "ETC",
-    "eligibility": "대학생, 대학원생, 일반인, 기업, 기타",
-    "award": "1천만원 미만",
-    "award_detail": "300만원",
-    "apply_method": "웹하드, 우편, 방문",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111808",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-111808"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-111808",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111808"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-110421",
-    "title": "제31회 파랑새동요제",
-    "organization": "파랑새창작동요회",
-    "start_date": "2026-09-01",
-    "deadline": "2026-11-14",
-    "category": "대회, 음악",
-    "category_group": "ETC",
-    "eligibility": "어린이, 초등학생",
-    "award": "1천만원 미만",
-    "award_detail": "장학금 50만원",
-    "apply_method": "접수폼",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110421",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-110421"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-110421",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110421"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112032",
-    "title": "제4회 부산관광업계 지속가능한 ESG우수사례 공모전",
-    "organization": "부산관광공사",
-    "start_date": "2026-10-15",
-    "deadline": "2026-11-14",
-    "category": "기획/아이디어",
-    "category_group": "ETC",
-    "eligibility": "기타",
-    "award": "1천만원 미만",
-    "award_detail": "50만원",
-    "apply_method": "이메일",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112032",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112032"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112032",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112032"
-      }
-    ]
-  },
-  {
     "id": "thinkcontest-110892",
     "title": "1인가구 건강식생활 실천 캠페인",
     "organization": "한국건강증진개발원",
@@ -2147,6 +2043,32 @@
         "id": "thinkcontest-112025",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112025"
+      }
+    ]
+  },
+  {
+    "id": "contestkorea-202611140023",
+    "title": "2026 동남권 이노베이션 해커톤 ICT INNOHACK",
+    "organization": "부산정보산업진흥원",
+    "start_date": "2026-11-14",
+    "deadline": "2026-11-17",
+    "category": "학문•과학•IT",
+    "category_group": "IT",
+    "eligibility": "대학생 , 대학원생 , 일반인",
+    "award": "상금(총상금 : 640만원 / 1위 : 200만원)",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "마감 임박",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202611140023",
+    "source": "콘테스트코리아",
+    "aliases": [
+      "contestkorea-202611140023"
+    ],
+    "sources": [
+      {
+        "id": "contestkorea-202611140023",
+        "name": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202611140023"
       }
     ]
   },
@@ -5192,7 +5114,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111881",
     "source": "씽굿",
     "aliases": [
@@ -5218,7 +5140,7 @@
     "award": "상품(메가커피 금액권 )",
     "award_detail": "",
     "apply_method": "방문접수, 온라인접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202611100043",
     "source": "콘테스트코리아",
     "aliases": [
@@ -5244,7 +5166,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "기타",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112908",
     "source": "씽굿",
     "aliases": [
@@ -5282,7 +5204,7 @@
     "award": "1천만원 미만",
     "award_detail": "20만 원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112384",
     "source": "씽굿",
     "aliases": [
@@ -5314,7 +5236,7 @@
     "award": "1천만원 미만",
     "award_detail": "편당 300만원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=107156",
     "source": "씽굿",
     "aliases": [
@@ -5340,7 +5262,7 @@
     "award": "1천만원 미만",
     "award_detail": "10만 원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112383",
     "source": "씽굿",
     "aliases": [
@@ -5372,7 +5294,7 @@
     "award": "1천만원 미만",
     "award_detail": "",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110919",
     "source": "씽굿",
     "aliases": [
@@ -5398,7 +5320,7 @@
     "award": "1천만원 미만",
     "award_detail": "150만원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=110182",
     "source": "씽굿",
     "aliases": [
@@ -5424,7 +5346,7 @@
     "award": "기타",
     "award_detail": "200만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111956",
     "source": "씽굿",
     "aliases": [
@@ -5450,7 +5372,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112677",
     "source": "씽굿",
     "aliases": [
@@ -5488,7 +5410,7 @@
     "award": "1천만원 미만",
     "award_detail": "",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112411",
     "source": "씽굿",
     "aliases": [
@@ -5514,7 +5436,7 @@
     "award": "상금(총상금 : 400만원 / 1위 : 100만원)",
     "award_detail": "",
     "apply_method": "이메일접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202611060010",
     "source": "콘테스트코리아",
     "aliases": [
@@ -5566,7 +5488,7 @@
     "award": "1천만원 미만",
     "award_detail": "200만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=109157",
     "source": "씽굿",
     "aliases": [
@@ -5592,7 +5514,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112118",
     "source": "씽굿",
     "aliases": [
@@ -5650,7 +5572,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "접수폼, 방문",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111399",
     "source": "씽굿",
     "aliases": [
@@ -5734,7 +5656,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112417",
     "source": "씽굿",
     "aliases": [
@@ -5772,7 +5694,7 @@
     "award": "1천만원 미만",
     "award_detail": "300만원",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112051",
     "source": "씽굿",
     "aliases": [
@@ -5882,7 +5804,7 @@
     "award": "상품(커피 기프티콘 )",
     "award_detail": "",
     "apply_method": "온라인접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202611110048",
     "source": "콘테스트코리아",
     "aliases": [
@@ -5920,7 +5842,7 @@
     "award": "없음",
     "award_detail": "",
     "apply_method": "온라인접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202611120022",
     "source": "콘테스트코리아",
     "aliases": [
@@ -5946,7 +5868,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "",
     "apply_method": "이메일, 홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111099",
     "source": "씽굿",
     "aliases": [
@@ -5998,7 +5920,7 @@
     "award": "기타",
     "award_detail": "상장 및 기부금 영수증",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=108967",
     "source": "씽굿",
     "aliases": [
@@ -6024,7 +5946,7 @@
     "award": "1천만원 미만",
     "award_detail": "500,000",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112268",
     "source": "씽굿",
     "aliases": [
@@ -6050,7 +5972,7 @@
     "award": "1천만원 미만",
     "award_detail": "",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111976",
     "source": "씽굿",
     "aliases": [
@@ -6076,7 +5998,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112306",
     "source": "씽굿",
     "aliases": [
@@ -9508,7 +9430,7 @@
     "award": "다양한 혜택",
     "award_detail": "",
     "apply_method": "",
-    "status": "접수 예정",
+    "status": "접수 중",
     "link": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112282",
     "source": "위비티",
     "aliases": [
@@ -14171,6 +14093,32 @@
     ]
   },
   {
+    "id": "wevity-112365",
+    "title": "제27회 전국국악동요경연대회",
+    "organization": "한국코다이협회ㅡ비영리전문예술법인 / 모드니예술",
+    "start_date": "2026-11-02",
+    "deadline": "2026-12-20",
+    "category": "예체능/미술/음악",
+    "category_group": "ETC",
+    "eligibility": "어린이",
+    "award": "다양한 혜택",
+    "award_detail": "",
+    "apply_method": "",
+    "status": "접수 중",
+    "link": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112365",
+    "source": "위비티",
+    "aliases": [
+      "wevity-112365"
+    ],
+    "sources": [
+      {
+        "id": "wevity-112365",
+        "name": "위비티",
+        "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112365"
+      }
+    ]
+  },
+  {
     "id": "contestkorea-202611110005",
     "title": "2026 부산 미래 직업·평생교육 AI 영상 공모전",
     "organization": "부산과학기술대학교/KNN",
@@ -16278,32 +16226,6 @@
         "id": "thinkcontest-111515",
         "name": "씽굿",
         "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111515"
-      }
-    ]
-  },
-  {
-    "id": "wevity-112365",
-    "title": "제27회 전국국악동요경연대회",
-    "organization": "한국코다이협회ㅡ비영리전문예술법인 / 모드니예술",
-    "start_date": "2026-11-02",
-    "deadline": "2027-12-20",
-    "category": "예체능/미술/음악",
-    "category_group": "ETC",
-    "eligibility": "어린이",
-    "award": "다양한 혜택",
-    "award_detail": "",
-    "apply_method": "",
-    "status": "접수 중",
-    "link": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112365",
-    "source": "위비티",
-    "aliases": [
-      "wevity-112365"
-    ],
-    "sources": [
-      {
-        "id": "wevity-112365",
-        "name": "위비티",
-        "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112365"
       }
     ]
   },
