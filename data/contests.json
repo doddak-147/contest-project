@@ -1,83 +1,5 @@
 [
   {
-    "id": "thinkcontest-112343",
-    "title": "2026 맞춤형 급여 안내(복지멤버십) 수기 공모전",
-    "organization": "한국사회보장정보원",
-    "start_date": "2026-10-26",
-    "deadline": "2026-11-21",
-    "category": "문학/수기",
-    "category_group": "ETC",
-    "eligibility": "기타",
-    "award": "1천만원 미만",
-    "award_detail": "50만원",
-    "apply_method": "이메일, 홈페이지",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112343",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112343"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112343",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112343"
-      }
-    ]
-  },
-  {
-    "id": "thinkcontest-112004",
-    "title": "제21회 2026년 한국공간디자인 전국공모전",
-    "organization": "사단법인 한국공간디자인협회",
-    "start_date": "2026-11-02",
-    "deadline": "2026-11-21",
-    "category": "건축, 기획/아이디어, 디자인",
-    "category_group": "ETC",
-    "eligibility": "대학생, 대학원생, 일반인",
-    "award": "1천만원 미만",
-    "award_detail": "300만원",
-    "apply_method": "이메일",
-    "status": "마감 임박",
-    "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112004",
-    "source": "씽굿",
-    "aliases": [
-      "thinkcontest-112004"
-    ],
-    "sources": [
-      {
-        "id": "thinkcontest-112004",
-        "name": "씽굿",
-        "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112004"
-      }
-    ]
-  },
-  {
-    "id": "contestkorea-202611120007",
-    "title": "제2회 청소년 가요제 in Tongwon University",
-    "organization": "동원대학교 실용음악과",
-    "start_date": "2026-11-16",
-    "deadline": "2026-11-21",
-    "category": "음악•콩쿠르•댄스",
-    "category_group": "ETC",
-    "eligibility": "중학생 , 고등학생",
-    "award": "없음",
-    "award_detail": "",
-    "apply_method": "이메일접수, 온라인접수",
-    "status": "마감 임박",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030910001&str_no=202611120007",
-    "source": "콘테스트코리아",
-    "aliases": [
-      "contestkorea-202611120007"
-    ],
-    "sources": [
-      {
-        "id": "contestkorea-202611120007",
-        "name": "콘테스트코리아",
-        "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030910001&str_no=202611120007"
-      }
-    ]
-  },
-  {
     "id": "contestkorea-202610230007",
     "title": "'젊은 시각 새로운 시선 2027' 참여 작가 공모",
     "organization": "부산시립미술관",
@@ -4139,7 +4061,7 @@
     "award": "1천만원 미만",
     "award_detail": "",
     "apply_method": "접수폼, 기타",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112844",
     "source": "씽굿",
     "aliases": [
@@ -4191,7 +4113,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원 상당의 상품",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112377",
     "source": "씽굿",
     "aliases": [
@@ -4249,7 +4171,7 @@
     "award": "1천만원 미만",
     "award_detail": "100만원",
     "apply_method": "접수폼, 기타",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112794",
     "source": "씽굿",
     "aliases": [
@@ -4307,7 +4229,7 @@
     "award": "3천만원 미만~1천만원 이상",
     "award_detail": "500만원",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112815",
     "source": "씽굿",
     "aliases": [
@@ -4417,7 +4339,7 @@
     "award": "1천만원 미만",
     "award_detail": "50만원",
     "apply_method": "접수폼",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112684",
     "source": "씽굿",
     "aliases": [
@@ -4449,7 +4371,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "접수폼, 이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=113113",
     "source": "씽굿",
     "aliases": [
@@ -4597,7 +4519,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "접수폼, 이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112457",
     "source": "씽굿",
     "aliases": [
@@ -4623,7 +4545,7 @@
     "award": "기타",
     "award_detail": "",
     "apply_method": "홈페이지",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=111015",
     "source": "씽굿",
     "aliases": [
@@ -4649,7 +4571,7 @@
     "award": "없음",
     "award_detail": "",
     "apply_method": "이메일접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031610001&str_no=202611130029",
     "source": "콘테스트코리아",
     "aliases": [
@@ -4701,7 +4623,7 @@
     "award": "1천만원 미만",
     "award_detail": "50만원",
     "apply_method": "이메일",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=112438",
     "source": "씽굿",
     "aliases": [
