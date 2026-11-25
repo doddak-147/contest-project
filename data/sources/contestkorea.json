@@ -432,22 +432,6 @@
     "source": "콘테스트코리아"
   },
   {
-    "id": "contestkorea-202611030024",
-    "title": "에이블리 에블프 퀸 선발대회",
-    "organization": "에이블리",
-    "start_date": "2026-10-28",
-    "deadline": "2026-11-24",
-    "category": "요리•뷰티•배우•오디션",
-    "category_group": "ETC",
-    "eligibility": "고등학생 , 대학생 , 대학원생 , 해당자 ▶ ( 만 14세 이상 )",
-    "award": "상금(총상금 : 700만원 / 1위 : 300만원)",
-    "award_detail": "",
-    "apply_method": "온라인접수",
-    "status": "접수 중",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031610001&str_no=202611030024",
-    "source": "콘테스트코리아"
-  },
-  {
     "id": "contestkorea-202611030032",
     "title": "2027년 제14회 LS ELECTRIC배 전국수중사진공모전",
     "organization": "(사)대한수중·핀수영협회",
@@ -1069,22 +1053,6 @@
     "apply_method": "이메일접수",
     "status": "접수 중",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202611090047",
-    "source": "콘테스트코리아"
-  },
-  {
-    "id": "contestkorea-202611090051",
-    "title": "광명역 미래비전 AI 영상 공모전",
-    "organization": "광명시/ 한국교육방송공사",
-    "start_date": "2026-11-11",
-    "deadline": "2026-11-24",
-    "category": "사진•영상•영화제",
-    "category_group": "IT",
-    "eligibility": "대학생 , 대학원생 , 일반인",
-    "award": "상금(총상금 : 600만원 / 1위 : 200만원)",
-    "award_detail": "",
-    "apply_method": "이메일접수",
-    "status": "접수 중",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611090051",
     "source": "콘테스트코리아"
   },
   {
@@ -2368,22 +2336,6 @@
     "source": "콘테스트코리아"
   },
   {
-    "id": "contestkorea-202611160014",
-    "title": "⌜집에 담고 싶은 모든 가치⌟ 홈잉루츠 송도 사진 공모전",
-    "organization": "인천글로벌시티(IGCD)",
-    "start_date": "2026-10-26",
-    "deadline": "2026-11-24",
-    "category": "사진•영상•영화제",
-    "category_group": "ETC",
-    "eligibility": "누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
-    "award": "상금(총상금 : 360만원 / 1위 : 50만원)",
-    "award_detail": "",
-    "apply_method": "온라인접수",
-    "status": "마감 임박",
-    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611160014",
-    "source": "콘테스트코리아"
-  },
-  {
     "id": "contestkorea-202611160016",
     "title": "'도민의 목소리로 함께 만드는 전북교육' 정책 제안 공모",
     "organization": "전북특별자치도교육청",
@@ -2619,7 +2571,7 @@
     "award": "기타 :트로피, 시상품(60인치 TV, 공기청정기, 음식물처리기 외)",
     "award_detail": "",
     "apply_method": "이메일접수",
-    "status": "접수 중",
+    "status": "마감 임박",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030910001&str_no=202611170010",
     "source": "콘테스트코리아"
   },
@@ -2784,6 +2736,22 @@
     "source": "콘테스트코리아"
   },
   {
+    "id": "contestkorea-202611190006",
+    "title": "《 PIECE OF STORY 》공모전",
+    "organization": "스튜디오 여백",
+    "start_date": "2026-11-13",
+    "deadline": "2026-12-11",
+    "category": "문학•문예",
+    "category_group": "ETC",
+    "eligibility": "해당자 ▶ ( 만 19~29세 서울/경기 청년 )",
+    "award": "상금+상품(총상금 : 55만원 / 1위 : 20만원 / 스타벅스 기프티콘 )",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611190006",
+    "source": "콘테스트코리아"
+  },
+  {
     "id": "contestkorea-202611190019",
     "title": "신청주의 개선 정책 브랜드 명칭 공모전",
     "organization": "보건복지부",
@@ -2797,6 +2765,38 @@
     "apply_method": "온라인접수",
     "status": "접수 중",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202611190019",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611190022",
+    "title": "2026 작은 손, 큰 쓸모 정크아트 경진대회",
+    "organization": "고양시 탄소중립지원센터",
+    "start_date": "2026-11-16",
+    "deadline": "2026-11-27",
+    "category": "미술•디자인•웹툰",
+    "category_group": "IT",
+    "eligibility": "초등학생 , 해당자 ▶ ( 고양시 거주 또는 관내 초등학교 재학생 )",
+    "award": "기타 :상장 및 기념품 증정",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "마감 임박",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030610001&str_no=202611190022",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611190023",
+    "title": "2026 고객 혁신 아이디어 공모전",
+    "organization": "은평구시설관리공단",
+    "start_date": "2026-11-18",
+    "deadline": "2026-11-29",
+    "category": "아이디어•건축•창업",
+    "category_group": "ETC",
+    "eligibility": "일반인 , 해당자 ▶ ( 은평구민 및 공단 시설이용 고객 )",
+    "award": "상금(총상금 : 70만원 / 1위 : 30만원)",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "마감 임박",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202611190023",
     "source": "콘테스트코리아"
   },
   {
@@ -2912,6 +2912,22 @@
     "source": "콘테스트코리아"
   },
   {
+    "id": "contestkorea-202611200017",
+    "title": "AI활용 전력설비 정비 및 안전지원 서비스 아이디어 공모전",
+    "organization": "한전KPS",
+    "start_date": "2026-11-23",
+    "deadline": "2026-12-06",
+    "category": "아이디어•건축•창업",
+    "category_group": "ETC",
+    "eligibility": "일반인",
+    "award": "상금(총상금 : 300만원 / 1위 : 100만원)",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202611200017",
+    "source": "콘테스트코리아"
+  },
+  {
     "id": "contestkorea-202611200026",
     "title": "제3회 내포문화숲길 사진 공모전",
     "organization": "사)내포문화숲길",
@@ -2961,7 +2977,7 @@
   },
   {
     "id": "contestkorea-202611210002",
-    "title": "제1회 아트파이트 아트토이 공모전",
+    "title": "제1회 아트파이즈 아트토이 공모전",
     "organization": "아트파이즈/(주)숨코리아",
     "start_date": "2026-11-20",
     "deadline": "2027-01-05",
@@ -2994,7 +3010,7 @@
   {
     "id": "contestkorea-202611220001",
     "title": "2026 대구 로컬AI그라운드 지역문제 해결형 AI활용 경진대회",
-    "organization": "대구광역시, 대구창조경제혁신센터",
+    "organization": "대구광역시, 대구창조경제혁신센터/대구정책연구원,대구창의도시재생지원센터",
     "start_date": "2026-11-06",
     "deadline": "2026-11-30",
     "category": "학문•과학•IT",
@@ -3104,6 +3120,22 @@
     "source": "콘테스트코리아"
   },
   {
+    "id": "contestkorea-202611240012",
+    "title": "STUN-X : 우주 아이돌 선발 비공개 오디션",
+    "organization": "STUNX",
+    "start_date": "2026-11-16",
+    "deadline": "2026-12-31",
+    "category": "음악•콩쿠르•댄스",
+    "category_group": "ETC",
+    "eligibility": "일반인 , 해당자 ▶ ( 만 19세 이상 성인 )",
+    "award": "없음",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030910001&str_no=202611240012",
+    "source": "콘테스트코리아"
+  },
+  {
     "id": "contestkorea-202611240019",
     "title": "1004섬 분재정원 새 이름 공모",
     "organization": "신안군",
@@ -3117,6 +3149,70 @@
     "apply_method": "이메일접수",
     "status": "접수 중",
     "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030210001&str_no=202611240019",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611240040",
+    "title": "[대구광역시 남구] AI 행정혁신 경진대회",
+    "organization": "대구광역시 남구청, 계명대학교 창업지원단",
+    "start_date": "2026-11-24",
+    "deadline": "2026-12-09",
+    "category": "아이디어•건축•창업",
+    "category_group": "IT",
+    "eligibility": "대학생 , 대학원생 , 일반인",
+    "award": "기타 :선정된 개인(팀)당 3,000만원 상당의 사업화 자금 지원",
+    "award_detail": "",
+    "apply_method": "이메일접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202611240040",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611250007",
+    "title": "제14회 국제 e-모빌리티 엑스포 제3회 청소년 국제 컨퍼런스(학술 대회)",
+    "organization": "국제e-모빌리티엑스포조직위원회, 미디어제주/주식회사 르네상스테크, 미디어제주",
+    "start_date": "2027-01-11",
+    "deadline": "2027-02-08",
+    "category": "학문•과학•IT",
+    "category_group": "IT",
+    "eligibility": "중학생 , 고등학생",
+    "award": "상장",
+    "award_detail": "",
+    "apply_method": "온라인접수",
+    "status": "접수 예정",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202611250007",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611250015",
+    "title": "망원동월드컵시장 「넘어가 전통시장 GreenGreen」 대학생 쇼츠 영상 공모전 대학생 대외활동 공모전",
+    "organization": "망원동월드컵시장 문화관광형시장 육성사업단",
+    "start_date": "2026-11-25",
+    "deadline": "2026-12-10",
+    "category": "사진•영상•영화제",
+    "category_group": "ETC",
+    "eligibility": "대학생",
+    "award": "상금(총상금 : 150만원 / 1위 : 50만원)",
+    "award_detail": "",
+    "apply_method": "이메일접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611250015",
+    "source": "콘테스트코리아"
+  },
+  {
+    "id": "contestkorea-202611250017",
+    "title": "AI x Seoul 혁신 콘텐츠 공모전",
+    "organization": "성균관대학교 문화예술미디어융합원, 성균관대 앵커사업단 서울앵커센터, AI중심대학사업단",
+    "start_date": "2026-11-09",
+    "deadline": "2026-12-13",
+    "category": "사진•영상•영화제",
+    "category_group": "IT",
+    "eligibility": "대학생 , 대학원생",
+    "award": "상금(총상금 : 260만원 / 1위 : 100만원)",
+    "award_detail": "",
+    "apply_method": "이메일접수",
+    "status": "접수 중",
+    "link": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202611250017",
     "source": "콘테스트코리아"
   }
 ]
